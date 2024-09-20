@@ -1,0 +1,26 @@
+PREFIX Rel: <http://example.com/fukg/data/Relasi:> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?DomainLabel ?RangeLabel
+WHERE {
+  ?SubClassDomain Rel:R1 ?SubClassRange .
+  
+  OPTIONAL {
+    ?SubClassDomain rdfs:label ?DomainLabel .
+    ?SubClassRange rdfs:label ?RangeLabel .
+  }
+}
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX Rel: <http://example.com/fukg/data/Relasi:> 
+PREFIX Property: <http://example.com/fukg/data/Property:> 
+
+SELECT ?DomainLabel ?RangeLabel
+WHERE {
+  ?SubClassDomain Rel:R1 ?SubClassRange .
+  
+  OPTIONAL {
+    ?SubClassDomain Property:P2 ?DomainLabel .
+    ?SubClassRange Property:P54 ?RangeLabel .
+  }
+}

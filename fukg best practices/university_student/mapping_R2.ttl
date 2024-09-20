@@ -1,0 +1,14 @@
+<TripleMap_R2_Mahasiswa_TerdaftarDi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R2_Mahasiswa_terdaftarDi.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R2;
+    rr:objectMap [
+        rr:template "http://example.com/ProgramStudi/{kodeProgramStudi}";
+    ];
+  ].

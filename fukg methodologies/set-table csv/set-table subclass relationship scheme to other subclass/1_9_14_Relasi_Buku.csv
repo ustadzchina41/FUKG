@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R42,terdapat di,Buku,Perpustakaan
+R43,digunakan oleh,Buku,Dosen
+R44,digunakan oleh,Buku,Mahasiswa

@@ -1,0 +1,3 @@
+ID,Relasi,Domain,Range
+R10,lulusan dari program studi,Alumni,ProgramStudi
+R11,donatur ke,Alumni,Fakultas

@@ -1,0 +1,14 @@
+<TripleMap_R19_Fakultas_TerdiriDari> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R19_Fakultas_terdiriDari.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Fakultas/{namaFakultas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R19;
+    rr:objectMap [
+        rr:template "http://example.com/Departemen/{namaDepartemen}";
+    ];
+  ].

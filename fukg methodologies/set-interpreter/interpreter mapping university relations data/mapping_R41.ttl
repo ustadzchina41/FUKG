@@ -1,0 +1,14 @@
+<TripleMap_R41_Publikasi_BerasalDari> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R41_Publikasi_berasalDari.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Publikasi/{judulPublikasi}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R41;
+    rr:objectMap [
+        rr:template "http://example.com/Penelitian/{judulPenelitian}";
+    ];
+  ].

@@ -1,0 +1,61 @@
+#=============================================================== UNIVERSITY CURRICULUM ===================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Kurikulum> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "kurikulum_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Kurikulum/{tahunAjaranKurikulum}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Kurikulum";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaKurikulum";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P84; 
+    rr:objectMap [
+      rml:reference "namaKurikulum";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P85; 
+    rr:objectMap [
+      rml:reference "tahunAjaranKurikulum";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P86; 
+    rr:objectMap [
+      rml:reference "deskripsiKurikulum";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P87; 
+    rr:objectMap [
+      rml:reference "jumlahMataKuliahKurikulum";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P88; 
+    rr:objectMap [
+      rml:reference "programStudi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P89; 
+    rr:objectMap [
+      rml:reference "updateTerakhirKurikulum";
+    ];
+  ].

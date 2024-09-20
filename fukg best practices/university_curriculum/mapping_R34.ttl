@@ -1,0 +1,14 @@
+<TripleMap_R34_Kurikulum_BerlakuUntuk> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R34_Kurikulum_berlakuUntuk.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Kurikulum/{tahunAjaranKurikulum}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R34;
+    rr:objectMap [
+        rr:template "http://example.com/ProgramStudi/{kodeProgramStudi}";
+    ];
+  ].

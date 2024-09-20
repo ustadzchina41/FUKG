@@ -1,0 +1,14 @@
+<TripleMap_R47_Artikel_DigunakanOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R47_Artikel_digunakanOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Artikel/{judulArtikel}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R47;
+    rr:objectMap [
+        rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+    ];
+  ].

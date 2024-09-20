@@ -1,0 +1,14 @@
+<TripleMap_R4_Dosen_Mengajar> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R4_Dosen_mengajar.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Dosen/{NIDN}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R4;
+    rr:objectMap [
+        rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+    ];
+  ].  

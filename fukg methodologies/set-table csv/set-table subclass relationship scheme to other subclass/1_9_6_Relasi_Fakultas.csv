@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R18,bagian dari,Fakultas,Universitas
+R19,terdiri dari,Fakultas,Departemen
+R20,tempat kerja,Fakultas,StafAdministratif

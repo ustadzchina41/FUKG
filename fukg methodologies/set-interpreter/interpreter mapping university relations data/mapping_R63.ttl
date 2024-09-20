@@ -1,0 +1,14 @@
+<TripleMap_R63_Workshop_DiikutiOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R63_Workshop_diikutiOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Workshop/{judulWorkshop}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R63;
+    rr:objectMap [
+        rr:template "http://example.com/Dosen/{NIDN}";
+    ];
+  ].

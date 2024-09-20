@@ -1,0 +1,55 @@
+#============================================================ UNIVERSITY CAFETERIA =======================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Kafetaria> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "kafetaria_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Kafetaria/{namaKafetaria}";
+  ];
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Kafetaria";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaKafetaria";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P170; 
+    rr:objectMap [
+      rml:reference "namaKafetaria";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P171; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P172; 
+    rr:objectMap [
+      rml:reference "jamOperasional";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P173; 
+    rr:objectMap [
+      rml:reference "menu";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P174; 
+    rr:objectMap [
+      rml:reference "kapasitas";
+    ];
+  ].

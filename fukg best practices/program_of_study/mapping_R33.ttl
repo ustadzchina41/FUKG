@@ -1,0 +1,14 @@
+<TripleMap_R33_ProgramStudi_TerdiriDari> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R33_ProgramStudi_terdiriDari.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/ProgramStudi/{kodeProgramStudi}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R33;
+    rr:objectMap [
+        rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+    ];
+  ].

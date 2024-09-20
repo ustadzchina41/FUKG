@@ -1,0 +1,55 @@
+#=================================================================== ARTICLE  ============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Artikel> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "artikel_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Artikel/{judulArtikel}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Artikel";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "judulArtikel";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P105; 
+    rr:objectMap [
+      rml:reference "judulArtikel";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P106; 
+    rr:objectMap [
+      rml:reference "penulis";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P107; 
+    rr:objectMap [
+      rml:reference "jurnal";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P108; 
+    rr:objectMap [
+      rml:reference "tahunTerbit";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P109; 
+    rr:objectMap [
+      rml:reference "topik";
+    ];
+  ].

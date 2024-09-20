@@ -1,0 +1,14 @@
+<TripleMap_R81_Asrama_TempatTinggal> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R81_Asrama_tempatTinggal.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Asrama/{namaAsrama}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R81;
+    rr:objectMap [
+        rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+    ];
+  ].

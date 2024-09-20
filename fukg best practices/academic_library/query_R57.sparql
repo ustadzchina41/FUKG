@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX Rel: <http://example.com/fukg/data/Relasi:> 
+PREFIX Property: <http://example.com/fukg/data/Property:> 
+
+SELECT ?AcademicLibraryLabel ?ScientificJournalLabel 
+WHERE {
+  ?SubClassDomain Rel:R57 ?SubClassRange .
+  
+  OPTIONAL {
+    ?SubClassDomain Property:P125 ?AcademicLibraryLabel .
+    ?SubClassRange Property:P110 ?ScientificJournalLabel .
+  }
+}

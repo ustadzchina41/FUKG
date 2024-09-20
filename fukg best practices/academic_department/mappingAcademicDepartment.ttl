@@ -1,0 +1,55 @@
+#=============================================================== ACADEMIC DEPARTMENT =====================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Departemen> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "departemen_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Departemen/{namaDepartemen}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Departemen";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaDepartemen";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P43; 
+    rr:objectMap [
+      rml:reference "namaDepartemen";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P44; 
+    rr:objectMap [
+      rml:reference "kepalaDepartemen";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P45; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P46; 
+    rr:objectMap [
+      rml:reference "jumlahStaf";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P47; 
+    rr:objectMap [
+      rml:reference "bidangStudi";
+    ];
+  ].

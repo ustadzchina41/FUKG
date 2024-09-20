@@ -1,0 +1,55 @@
+#=========================================================== SCIENTIFIC JOURNAL  =========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Jurnal> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "jurnal_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Jurnal/{namaJurnal}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Jurnal";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaJurnal";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P110; 
+    rr:objectMap [
+      rml:reference "namaJurnal";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P111; 
+    rr:objectMap [
+      rml:reference "editor";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P112; 
+    rr:objectMap [
+      rml:reference "frekuensiTerbit";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P113; 
+    rr:objectMap [
+      rml:reference "issn";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P114; 
+    rr:objectMap [
+      rml:reference "bidangStudi";
+    ];
+  ].

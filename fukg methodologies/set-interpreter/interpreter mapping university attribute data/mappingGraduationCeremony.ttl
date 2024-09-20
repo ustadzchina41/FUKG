@@ -1,0 +1,55 @@
+#======================================================= GRADUATION CEREMONY  ============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_UpacaraWisuda> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "upacaraWisuda_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/UpacaraWisuda/{tanggalWisuda}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/UpacaraWisuda";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "tanggalWisuda";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P150; 
+    rr:objectMap [
+      rml:reference "tanggalWisuda";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P151; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P152; 
+    rr:objectMap [
+      rml:reference "jumlahWisudawan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P153; 
+    rr:objectMap [
+      rml:reference "pembicara";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P154; 
+    rr:objectMap [
+      rml:reference "Agenda";
+    ];
+  ].

@@ -1,0 +1,14 @@
+<TripleMap_R20_Fakultas_TempatKerja> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R20_Fakultas_tempatKerja.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Fakultas/{namaFakultas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R20;
+    rr:objectMap [
+        rr:template "http://example.com/StafAdministratif/{NIP}";
+    ];
+  ].

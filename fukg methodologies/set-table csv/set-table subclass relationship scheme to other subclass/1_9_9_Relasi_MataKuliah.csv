@@ -1,0 +1,3 @@
+ID,Relasi,Domain,Range
+R30,diajarOleh,MataKuliah,Dosen
+R31,diambilOleh,MataKuliah,Mahasiswa

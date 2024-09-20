@@ -1,0 +1,14 @@
+<TripleMap_R18_Fakultas_BagianDari> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R18_Fakultas_bagianDari.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Fakultas/{namaFakultas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R18;
+    rr:objectMap [
+        rr:template "http://example.com/Universitas/{namaUniversitas}";
+    ];
+  ].

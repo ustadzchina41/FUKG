@@ -1,0 +1,14 @@
+<TripleMap_fukgSubclassPropertytoWikidata> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "mappingProperty.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/fukg/data/Property:{propertyFUKG}";
+  ]; 
+  rr:predicateObjectMap [ 
+    rr:predicate map:mappedto; 
+    rr:objectMap [
+      rr:template "https://www.wikidata.org/wiki/Property:{propertyWikidata}";
+    ];
+  ].

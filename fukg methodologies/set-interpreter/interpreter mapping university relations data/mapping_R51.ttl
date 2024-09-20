@@ -1,0 +1,14 @@
+<TripleMap_R51_Laboratorium_DigunakanUntuk> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R51_Laboratorium_digunakanUntuk.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Laboratorium/{namaLaboratorium}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R51;
+    rr:objectMap [
+        rr:template "http://example.com/Penelitian/{judulPenelitian}";
+    ];
+  ].

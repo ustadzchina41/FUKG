@@ -1,0 +1,55 @@
+#=================================================================== BOOK  ===============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Buku> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "buku_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Buku/{judulBuku}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Buku";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "judulBuku";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P100; 
+    rr:objectMap [
+      rml:reference "judulBuku";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P101; 
+    rr:objectMap [
+      rml:reference "penulis";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P102; 
+    rr:objectMap [
+      rml:reference "isbn";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P103; 
+    rr:objectMap [
+      rml:reference "penerbit";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P104; 
+    rr:objectMap [
+      rml:reference "tahunTerbit";
+    ];
+  ].

@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R82,bagian dari,Kafetaria,Universitas
+R83,bagian dari,Kafetaria,Fakultas
+R84,digunakan oleh,Kafetaria,Dosen
+R85,digunakan oleh,Kafetaria,Mahasiswa

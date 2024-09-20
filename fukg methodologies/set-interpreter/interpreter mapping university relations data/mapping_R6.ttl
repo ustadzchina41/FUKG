@@ -1,0 +1,14 @@
+<TripleMap_R6_Dosen_TerafiliasiDengan> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R6_Dosen_terafiliasiDengan.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Dosen/{NIDN}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R6;
+    rr:objectMap [
+        rr:template "http://example.com/Departemen/{namaDepartemen}";
+    ];
+  ].  

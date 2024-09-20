@@ -1,0 +1,55 @@
+#============================================================ SPORT VENUE  ===============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_SaranaOlahraga> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "saranaOlahraga_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/SaranaOlahraga/{namaFasilitas}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/SaranaOlahraga";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaFasilitas";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P160; 
+    rr:objectMap [
+      rml:reference "namaFasilitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P161; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P162; 
+    rr:objectMap [
+      rml:reference "jenisOlahraga";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P163; 
+    rr:objectMap [
+      rml:reference "jamOperasional";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P164; 
+    rr:objectMap [
+      rml:reference "kapasitas";
+    ];
+  ].

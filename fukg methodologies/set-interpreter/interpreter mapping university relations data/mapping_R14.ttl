@@ -1,0 +1,14 @@
+<TripleMap_R14_Departemen_Mengelola> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R14_departemen_mengelola.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Departemen/{namaDepartemen}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R14;
+    rr:objectMap [
+        rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+    ];
+  ].

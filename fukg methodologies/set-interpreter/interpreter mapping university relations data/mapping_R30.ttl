@@ -1,0 +1,14 @@
+<TripleMap_R30_MataKuliah_DiajarOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R30_MataKuliah_diajarOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R30;
+    rr:objectMap [
+        rr:template "http://example.com/Dosen/{NIDN}";
+    ];
+  ].

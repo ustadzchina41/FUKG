@@ -1,0 +1,895 @@
+<http://example.com/fukg/data/Property:P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P1> <http://www.w3.org/2000/01/rdf-schema#label> "Nomor Induk Mahasiswa" .
+<http://example.com/fukg/data/Property:P1> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik yang diberikan kepada setiap mahasiswa sebagai identifikasi" .
+<http://example.com/fukg/data/Property:P1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P2> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Mahasiswa" .
+<http://example.com/fukg/data/Property:P2> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap mahasiswa" .
+<http://example.com/fukg/data/Property:P2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P3> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Kelamin Mahasiswa" .
+<http://example.com/fukg/data/Property:P3> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategori jenis kelamin mahasiswa" .
+<http://example.com/fukg/data/Property:P3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P4> <http://www.w3.org/2000/01/rdf-schema#label> "Program Studi Mahasiswa" .
+<http://example.com/fukg/data/Property:P4> <http://www.w3.org/2000/01/rdf-schema#comment> "Program studi atau jurusan yang diambil oleh mahasiswa" .
+<http://example.com/fukg/data/Property:P4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P5> <http://www.w3.org/2000/01/rdf-schema#label> "Jenjang" .
+<http://example.com/fukg/data/Property:P5> <http://www.w3.org/2000/01/rdf-schema#comment> "Tingkat pendidikan yang ditempuh" .
+<http://example.com/fukg/data/Property:P5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P5> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P6> <http://www.w3.org/2000/01/rdf-schema#label> "Semester Awal" .
+<http://example.com/fukg/data/Property:P6> <http://www.w3.org/2000/01/rdf-schema#comment> "Semester pertama ketika mahasiswa mulai kuliah" .
+<http://example.com/fukg/data/Property:P6> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P6> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P7> <http://www.w3.org/2000/01/rdf-schema#label> "Status Awal Mahasiswa" .
+<http://example.com/fukg/data/Property:P7> <http://www.w3.org/2000/01/rdf-schema#comment> "Status mahasiswa saat pertama kali masuk" .
+<http://example.com/fukg/data/Property:P7> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P7> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P8> <http://www.w3.org/2000/01/rdf-schema#label> "Status Mahasiswa Saat ini" .
+<http://example.com/fukg/data/Property:P8> <http://www.w3.org/2000/01/rdf-schema#comment> "Status terkini mahasiswa" .
+<http://example.com/fukg/data/Property:P8> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Mahasiswa> .
+<http://example.com/fukg/data/Property:P8> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P9> <http://www.w3.org/2000/01/rdf-schema#label> "NIDN" .
+<http://example.com/fukg/data/Property:P9> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik yang diberikan kepada setiap dosen sebagai identifikasi" .
+<http://example.com/fukg/data/Property:P9> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P9> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P10> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Dosen" .
+<http://example.com/fukg/data/Property:P10> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap dosen" .
+<http://example.com/fukg/data/Property:P10> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P10> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P11> <http://www.w3.org/2000/01/rdf-schema#label> "Program Studi Dosen" .
+<http://example.com/fukg/data/Property:P11> <http://www.w3.org/2000/01/rdf-schema#comment> "Program studi tempat dosen mengajar" .
+<http://example.com/fukg/data/Property:P11> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P11> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P12> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Kelamin Dosen" .
+<http://example.com/fukg/data/Property:P12> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategori jenis kelamin dosen" .
+<http://example.com/fukg/data/Property:P12> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P12> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P13> <http://www.w3.org/2000/01/rdf-schema#label> "Jabatan Fungsionalitas" .
+<http://example.com/fukg/data/Property:P13> <http://www.w3.org/2000/01/rdf-schema#comment> "Jabatan akademik dosen" .
+<http://example.com/fukg/data/Property:P13> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P13> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P14> <http://www.w3.org/2000/01/rdf-schema#label> "Pendidikan Tertinggi" .
+<http://example.com/fukg/data/Property:P14> <http://www.w3.org/2000/01/rdf-schema#comment> "Tingkat pendidikan tertinggi yang telah ditempuh dosen" .
+<http://example.com/fukg/data/Property:P14> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P14> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P15> <http://www.w3.org/2000/01/rdf-schema#label> "Status Ikatan Kerja" .
+<http://example.com/fukg/data/Property:P15> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis ikatan kerja dosen" .
+<http://example.com/fukg/data/Property:P15> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P15> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P16> <http://www.w3.org/2000/01/rdf-schema#label> "Status Aktivitas" .
+<http://example.com/fukg/data/Property:P16> <http://www.w3.org/2000/01/rdf-schema#comment> "Status keaktifan dosen" .
+<http://example.com/fukg/data/Property:P16> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Dosen> .
+<http://example.com/fukg/data/Property:P16> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P17> <http://www.w3.org/2000/01/rdf-schema#label> "NIP" .
+<http://example.com/fukg/data/Property:P17> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik yang diberikan kepada setiap staff sebagai identifikasi" .
+<http://example.com/fukg/data/Property:P17> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P17> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P18> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Pegawai" .
+<http://example.com/fukg/data/Property:P18> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap pegawai" .
+<http://example.com/fukg/data/Property:P18> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P18> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P19> <http://www.w3.org/2000/01/rdf-schema#label> "Departemen Pegawai" .
+<http://example.com/fukg/data/Property:P19> <http://www.w3.org/2000/01/rdf-schema#comment> "Departemen tempat pegawai bekerja" .
+<http://example.com/fukg/data/Property:P19> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P19> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P20> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Kelamin Pegawai" .
+<http://example.com/fukg/data/Property:P20> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategori jenis kelamin pegawai" .
+<http://example.com/fukg/data/Property:P20> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P20> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P21> <http://www.w3.org/2000/01/rdf-schema#label> "Jabatan Fungsionalitas" .
+<http://example.com/fukg/data/Property:P21> <http://www.w3.org/2000/01/rdf-schema#comment> "Jabatan fungsional pegawai" .
+<http://example.com/fukg/data/Property:P21> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P21> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P22> <http://www.w3.org/2000/01/rdf-schema#label> "Pendidikan Tertinggi" .
+<http://example.com/fukg/data/Property:P22> <http://www.w3.org/2000/01/rdf-schema#comment> "Tingkat pendidikan tertinggi yang telah ditempuh pegawai" .
+<http://example.com/fukg/data/Property:P22> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P22> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P23> <http://www.w3.org/2000/01/rdf-schema#label> "Status Ikatan Kerja" .
+<http://example.com/fukg/data/Property:P23> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis ikatan kerja pegawai" .
+<http://example.com/fukg/data/Property:P23> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P23> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P24> <http://www.w3.org/2000/01/rdf-schema#label> "Status Aktivitas" .
+<http://example.com/fukg/data/Property:P24> <http://www.w3.org/2000/01/rdf-schema#comment> "Status keaktifan pegawai" .
+<http://example.com/fukg/data/Property:P24> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Staff> .
+<http://example.com/fukg/data/Property:P24> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P25> <http://www.w3.org/2000/01/rdf-schema#label> "Nomor Induk Mahasiswa" .
+<http://example.com/fukg/data/Property:P25> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik yang diberikan kepada setiap mahasiswa sebagai identifikasi" .
+<http://example.com/fukg/data/Property:P25> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P25> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P26> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Mahasiswa" .
+<http://example.com/fukg/data/Property:P26> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap mahasiswa" .
+<http://example.com/fukg/data/Property:P26> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P26> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P27> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Kelamin Mahasiswa" .
+<http://example.com/fukg/data/Property:P27> <http://www.w3.org/2000/01/rdf-schema#comment> "Kategori jenis kelamin mahasiswa" .
+<http://example.com/fukg/data/Property:P27> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P27> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P28> <http://www.w3.org/2000/01/rdf-schema#label> "Program Studi Mahasiswa" .
+<http://example.com/fukg/data/Property:P28> <http://www.w3.org/2000/01/rdf-schema#comment> "Program studi atau jurusan yang diambil oleh mahasiswa" .
+<http://example.com/fukg/data/Property:P28> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P28> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P29> <http://www.w3.org/2000/01/rdf-schema#label> "Jenjang" .
+<http://example.com/fukg/data/Property:P29> <http://www.w3.org/2000/01/rdf-schema#comment> "Tingkat pendidikan yang ditempuh" .
+<http://example.com/fukg/data/Property:P29> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P29> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P30> <http://www.w3.org/2000/01/rdf-schema#label> "Semester Awal" .
+<http://example.com/fukg/data/Property:P30> <http://www.w3.org/2000/01/rdf-schema#comment> "Semester pertama ketika mahasiswa mulai kuliah" .
+<http://example.com/fukg/data/Property:P30> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P30> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P31> <http://www.w3.org/2000/01/rdf-schema#label> "Status Awal Mahasiswa" .
+<http://example.com/fukg/data/Property:P31> <http://www.w3.org/2000/01/rdf-schema#comment> "Status mahasiswa saat pertama kali masuk" .
+<http://example.com/fukg/data/Property:P31> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P31> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P32> <http://www.w3.org/2000/01/rdf-schema#label> "Nomor Ijazah" .
+<http://example.com/fukg/data/Property:P32> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik pada ijazah yang diberikan saat lulus" .
+<http://example.com/fukg/data/Property:P32> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Alumni> .
+<http://example.com/fukg/data/Property:P32> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P33> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Universitas" .
+<http://example.com/fukg/data/Property:P33> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap universitas" .
+<http://example.com/fukg/data/Property:P33> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Universitas> .
+<http://example.com/fukg/data/Property:P33> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P34> <http://www.w3.org/2000/01/rdf-schema#label> "Rektor" .
+<http://example.com/fukg/data/Property:P34> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama rektor universitas" .
+<http://example.com/fukg/data/Property:P34> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Universitas> .
+<http://example.com/fukg/data/Property:P34> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P35> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Universitas" .
+<http://example.com/fukg/data/Property:P35> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi universitas" .
+<http://example.com/fukg/data/Property:P35> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Universitas> .
+<http://example.com/fukg/data/Property:P35> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P36> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Berdiri Universitas" .
+<http://example.com/fukg/data/Property:P36> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun berdirinya universitas" .
+<http://example.com/fukg/data/Property:P36> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Universitas> .
+<http://example.com/fukg/data/Property:P36> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P37> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Fakultas" .
+<http://example.com/fukg/data/Property:P37> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah fakultas yang ada di universitas" .
+<http://example.com/fukg/data/Property:P37> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Universitas> .
+<http://example.com/fukg/data/Property:P37> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P38> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Fakultas" .
+<http://example.com/fukg/data/Property:P38> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap fakultas" .
+<http://example.com/fukg/data/Property:P38> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Fakultas> .
+<http://example.com/fukg/data/Property:P38> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P39> <http://www.w3.org/2000/01/rdf-schema#label> "Dekan Fakultas" .
+<http://example.com/fukg/data/Property:P39> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama dekan fakultas" .
+<http://example.com/fukg/data/Property:P39> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Fakultas> .
+<http://example.com/fukg/data/Property:P39> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P40> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi" .
+<http://example.com/fukg/data/Property:P40> <http://www.w3.org/2000/01/rdf-schema#comment> " Alamat atau lokasi fakultas" .
+<http://example.com/fukg/data/Property:P40> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Fakultas> .
+<http://example.com/fukg/data/Property:P40> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P41> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Departemen Fakultas" .
+<http://example.com/fukg/data/Property:P41> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah departemen yang ada di fakultas" .
+<http://example.com/fukg/data/Property:P41> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Fakultas> .
+<http://example.com/fukg/data/Property:P41> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P42> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Studi" .
+<http://example.com/fukg/data/Property:P42> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang studi yang ada di fakultas" .
+<http://example.com/fukg/data/Property:P42> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Fakultas> .
+<http://example.com/fukg/data/Property:P42> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P43> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Departemen" .
+<http://example.com/fukg/data/Property:P43> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap departemen" .
+<http://example.com/fukg/data/Property:P43> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Departemen> .
+<http://example.com/fukg/data/Property:P43> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P44> <http://www.w3.org/2000/01/rdf-schema#label> "Kepala Departemen" .
+<http://example.com/fukg/data/Property:P44> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama kepala departemen" .
+<http://example.com/fukg/data/Property:P44> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Departemen> .
+<http://example.com/fukg/data/Property:P44> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P45> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi" .
+<http://example.com/fukg/data/Property:P45> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi departemen" .
+<http://example.com/fukg/data/Property:P45> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Departemen> .
+<http://example.com/fukg/data/Property:P45> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P46> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Staf Departemen" .
+<http://example.com/fukg/data/Property:P46> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah staf yang ada di departemen" .
+<http://example.com/fukg/data/Property:P46> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Departemen> .
+<http://example.com/fukg/data/Property:P46> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P47> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Studi" .
+<http://example.com/fukg/data/Property:P47> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang studi yang ada di departemen" .
+<http://example.com/fukg/data/Property:P47> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Departemen> .
+<http://example.com/fukg/data/Property:P47> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P48> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Organisasi" .
+<http://example.com/fukg/data/Property:P48> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap organisasi mahasiswa" .
+<http://example.com/fukg/data/Property:P48> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Organisasi> .
+<http://example.com/fukg/data/Property:P48> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P49> <http://www.w3.org/2000/01/rdf-schema#label> "Ketua Organisasi" .
+<http://example.com/fukg/data/Property:P49> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama ketua organisasi mahasiswa" .
+<http://example.com/fukg/data/Property:P49> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Organisasi> .
+<http://example.com/fukg/data/Property:P49> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P50> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Anggota Organisasi" .
+<http://example.com/fukg/data/Property:P50> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah anggota organisasi mahasiswa" .
+<http://example.com/fukg/data/Property:P50> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Organisasi> .
+<http://example.com/fukg/data/Property:P50> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P51> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Kegiatan Organisasi" .
+<http://example.com/fukg/data/Property:P51> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang kegiatan yang dilakukan oleh organisasi mahasiswa" .
+<http://example.com/fukg/data/Property:P51> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Organisasi> .
+<http://example.com/fukg/data/Property:P51> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P52> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Berdiri Organisasi" .
+<http://example.com/fukg/data/Property:P52> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun berdirinya organisasi mahasiswa" .
+<http://example.com/fukg/data/Property:P52> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Organisasi> .
+<http://example.com/fukg/data/Property:P52> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P53> <http://www.w3.org/2000/01/rdf-schema#label> "Kode Mata Kuliah" .
+<http://example.com/fukg/data/Property:P53> <http://www.w3.org/2000/01/rdf-schema#comment> "Kode unik untuk setiap mata kuliah" .
+<http://example.com/fukg/data/Property:P53> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P53> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P54> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Mata Kuliah" .
+<http://example.com/fukg/data/Property:P54> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap mata kuliah" .
+<http://example.com/fukg/data/Property:P54> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P54> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P55> <http://www.w3.org/2000/01/rdf-schema#label> "SKS Mata Kuliah" .
+<http://example.com/fukg/data/Property:P55> <http://www.w3.org/2000/01/rdf-schema#comment> "Jumlah SKS dari mata kuliah" .
+<http://example.com/fukg/data/Property:P55> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P55> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P56> <http://www.w3.org/2000/01/rdf-schema#label> "Dosen Pengajar MataKuliah" .
+<http://example.com/fukg/data/Property:P56> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama dosen yang mengajar mata kuliah" .
+<http://example.com/fukg/data/Property:P56> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P56> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P57> <http://www.w3.org/2000/01/rdf-schema#label> "Deskripsi MataKuliah" .
+<http://example.com/fukg/data/Property:P57> <http://www.w3.org/2000/01/rdf-schema#comment> "Penjelasan singkat tentang mata kuliah" .
+<http://example.com/fukg/data/Property:P57> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P57> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P58> <http://www.w3.org/2000/01/rdf-schema#label> "Capaian Pembelajaran" .
+<http://example.com/fukg/data/Property:P58> <http://www.w3.org/2000/01/rdf-schema#comment> "Hasil pembelajaran yang diharapkan dari mata kuliah" .
+<http://example.com/fukg/data/Property:P58> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P58> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P59> <http://www.w3.org/2000/01/rdf-schema#label> "Prasyarat" .
+<http://example.com/fukg/data/Property:P59> <http://www.w3.org/2000/01/rdf-schema#comment> "Mata kuliah atau syarat yang harus dipenuhi sebelum mengambil mata kuliah ini" .
+<http://example.com/fukg/data/Property:P59> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P59> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P60> <http://www.w3.org/2000/01/rdf-schema#label> "Pokok Bahasan" .
+<http://example.com/fukg/data/Property:P60> <http://www.w3.org/2000/01/rdf-schema#comment> "Topik-topik utama yang dibahas dalam mata kuliah" .
+<http://example.com/fukg/data/Property:P60> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P60> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P61> <http://www.w3.org/2000/01/rdf-schema#label> "Tugas" .
+<http://example.com/fukg/data/Property:P61> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis-jenis tugas yang diberikan dalam mata kuliah" .
+<http://example.com/fukg/data/Property:P61> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P61> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P62> <http://www.w3.org/2000/01/rdf-schema#label> "Kerangka Mata kuliah" .
+<http://example.com/fukg/data/Property:P62> <http://www.w3.org/2000/01/rdf-schema#comment> "Struktur atau rencana pembelajaran mata kuliah" .
+<http://example.com/fukg/data/Property:P62> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P62> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P63> <http://www.w3.org/2000/01/rdf-schema#label> "Pustaka" .
+<http://example.com/fukg/data/Property:P63> <http://www.w3.org/2000/01/rdf-schema#comment> "Referensi atau bahan bacaan untuk mata kuliah" .
+<http://example.com/fukg/data/Property:P63> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P63> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P64> <http://www.w3.org/2000/01/rdf-schema#label> "Pembobotan Nilai" .
+<http://example.com/fukg/data/Property:P64> <http://www.w3.org/2000/01/rdf-schema#comment> "Proporsi penilaian untuk berbagai komponen dalam mata kuliah" .
+<http://example.com/fukg/data/Property:P64> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P64> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P65> <http://www.w3.org/2000/01/rdf-schema#label> "Distribusi Nilai" .
+<http://example.com/fukg/data/Property:P65> <http://www.w3.org/2000/01/rdf-schema#comment> "Pembagian nilai yang diberikan kepada mahasiswa berdasarkan kinerja mereka dalam mata kuliah" .
+<http://example.com/fukg/data/Property:P65> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/MataKuliah> .
+<http://example.com/fukg/data/Property:P65> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P66> <http://www.w3.org/2000/01/rdf-schema#label> "Status Program Studi" .
+<http://example.com/fukg/data/Property:P66> <http://www.w3.org/2000/01/rdf-schema#comment> "Status akreditasi atau legalitas program studi" .
+<http://example.com/fukg/data/Property:P66> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P66> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P67> <http://www.w3.org/2000/01/rdf-schema#label> "Kode Program Studi" .
+<http://example.com/fukg/data/Property:P67> <http://www.w3.org/2000/01/rdf-schema#comment> "Kode unik untuk program studi" .
+<http://example.com/fukg/data/Property:P67> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P67> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P68> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Program Studi" .
+<http://example.com/fukg/data/Property:P68> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap program studi" .
+<http://example.com/fukg/data/Property:P68> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P68> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P69> <http://www.w3.org/2000/01/rdf-schema#label> "Jenjang" .
+<http://example.com/fukg/data/Property:P69> <http://www.w3.org/2000/01/rdf-schema#comment> "Tingkat pendidikan yang ditawarkan" .
+<http://example.com/fukg/data/Property:P69> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P69> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P70> <http://www.w3.org/2000/01/rdf-schema#label> "Akreditasi" .
+<http://example.com/fukg/data/Property:P70> <http://www.w3.org/2000/01/rdf-schema#comment> "Status akreditasi program studi" .
+<http://example.com/fukg/data/Property:P70> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P70> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P71> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal berdiri" .
+<http://example.com/fukg/data/Property:P71> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal berdirinya program studi" .
+<http://example.com/fukg/data/Property:P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P72> <http://www.w3.org/2000/01/rdf-schema#label> "SK Penyelenggaraan" .
+<http://example.com/fukg/data/Property:P72> <http://www.w3.org/2000/01/rdf-schema#comment> "Surat Keputusan tentang penyelenggaraan program studi" .
+<http://example.com/fukg/data/Property:P72> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P72> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P73> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal SK" .
+<http://example.com/fukg/data/Property:P73> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal penerbitan Surat Keputusan" .
+<http://example.com/fukg/data/Property:P73> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P73> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P74> <http://www.w3.org/2000/01/rdf-schema#label> "Alamat Program Studi" .
+<http://example.com/fukg/data/Property:P74> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat lengkap program studi" .
+<http://example.com/fukg/data/Property:P74> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P74> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P75> <http://www.w3.org/2000/01/rdf-schema#label> "Kode Pos" .
+<http://example.com/fukg/data/Property:P75> <http://www.w3.org/2000/01/rdf-schema#comment> "Kode pos dari lokasi program studi" .
+<http://example.com/fukg/data/Property:P75> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P75> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P76> <http://www.w3.org/2000/01/rdf-schema#label> "Telepon" .
+<http://example.com/fukg/data/Property:P76> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor telepon program studi" .
+<http://example.com/fukg/data/Property:P76> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P76> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P77> <http://www.w3.org/2000/01/rdf-schema#label> "Faximile" .
+<http://example.com/fukg/data/Property:P77> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor faks program studi" .
+<http://example.com/fukg/data/Property:P77> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P77> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P78> <http://www.w3.org/2000/01/rdf-schema#label> "Email" .
+<http://example.com/fukg/data/Property:P78> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat email program studi" .
+<http://example.com/fukg/data/Property:P78> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P78> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P79> <http://www.w3.org/2000/01/rdf-schema#label> "Website" .
+<http://example.com/fukg/data/Property:P79> <http://www.w3.org/2000/01/rdf-schema#comment> "Situs web resmi program studi" .
+<http://example.com/fukg/data/Property:P79> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P79> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P80> <http://www.w3.org/2000/01/rdf-schema#label> "Deskripsi Program Studi" .
+<http://example.com/fukg/data/Property:P80> <http://www.w3.org/2000/01/rdf-schema#comment> "Penjelasan singkat tentang program studi" .
+<http://example.com/fukg/data/Property:P80> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P80> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P81> <http://www.w3.org/2000/01/rdf-schema#label> "Visi" .
+<http://example.com/fukg/data/Property:P81> <http://www.w3.org/2000/01/rdf-schema#comment> "Visi dari program studi" .
+<http://example.com/fukg/data/Property:P81> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P81> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P82> <http://www.w3.org/2000/01/rdf-schema#label> "Misi" .
+<http://example.com/fukg/data/Property:P82> <http://www.w3.org/2000/01/rdf-schema#comment> "Misi dari program studi" .
+<http://example.com/fukg/data/Property:P82> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P82> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P83> <http://www.w3.org/2000/01/rdf-schema#label> "Kompetensi Program Studi" .
+<http://example.com/fukg/data/Property:P83> <http://www.w3.org/2000/01/rdf-schema#comment> "Kompetensi yang dihasilkan dari program studi" .
+<http://example.com/fukg/data/Property:P83> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/ProgramStudi> .
+<http://example.com/fukg/data/Property:P83> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P84> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Kurikulum" .
+<http://example.com/fukg/data/Property:P84> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap kurikulum" .
+<http://example.com/fukg/data/Property:P84> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P84> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P85> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Ajaran" .
+<http://example.com/fukg/data/Property:P85> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun ajaran saat kurikulum berlaku" .
+<http://example.com/fukg/data/Property:P85> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P85> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P86> <http://www.w3.org/2000/01/rdf-schema#label> "Deskripsi Kurikulum" .
+<http://example.com/fukg/data/Property:P86> <http://www.w3.org/2000/01/rdf-schema#comment> "Penjelasan singkat tentang kurikulum" .
+<http://example.com/fukg/data/Property:P86> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P86> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P87> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah MataKuliah Kurikulum" .
+<http://example.com/fukg/data/Property:P87> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah mata kuliah dalam kurikulum" .
+<http://example.com/fukg/data/Property:P87> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P87> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P88> <http://www.w3.org/2000/01/rdf-schema#label> "Program Studi" .
+<http://example.com/fukg/data/Property:P88> <http://www.w3.org/2000/01/rdf-schema#comment> "Program studi yang menggunakan kurikulum" .
+<http://example.com/fukg/data/Property:P88> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P88> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P89> <http://www.w3.org/2000/01/rdf-schema#label> "Update terakhir" .
+<http://example.com/fukg/data/Property:P89> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal terakhir kurikulum diperbarui" .
+<http://example.com/fukg/data/Property:P89> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kurikulum> .
+<http://example.com/fukg/data/Property:P89> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P90> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Penelitian" .
+<http://example.com/fukg/data/Property:P90> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap penelitian" .
+<http://example.com/fukg/data/Property:P90> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Penelitian> .
+<http://example.com/fukg/data/Property:P90> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P91> <http://www.w3.org/2000/01/rdf-schema#label> "Peneliti Utama" .
+<http://example.com/fukg/data/Property:P91> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama peneliti utama" .
+<http://example.com/fukg/data/Property:P91> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Penelitian> .
+<http://example.com/fukg/data/Property:P91> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P92> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Studi Penelitian" .
+<http://example.com/fukg/data/Property:P92> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang studi yang relevan dengan penelitian" .
+<http://example.com/fukg/data/Property:P92> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Penelitian> .
+<http://example.com/fukg/data/Property:P92> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P93> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Penelitian" .
+<http://example.com/fukg/data/Property:P93> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun dilaksanakannya penelitian" .
+<http://example.com/fukg/data/Property:P93> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Penelitian> .
+<http://example.com/fukg/data/Property:P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P94> <http://www.w3.org/2000/01/rdf-schema#label> "Hasil Penelitian" .
+<http://example.com/fukg/data/Property:P94> <http://www.w3.org/2000/01/rdf-schema#comment> "Ringkasan hasil dari penelitian" .
+<http://example.com/fukg/data/Property:P94> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Penelitian> .
+<http://example.com/fukg/data/Property:P94> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P95> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Publikasi" .
+<http://example.com/fukg/data/Property:P95> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap publikasi" .
+<http://example.com/fukg/data/Property:P95> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Publikasi> .
+<http://example.com/fukg/data/Property:P95> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P96> <http://www.w3.org/2000/01/rdf-schema#label> "Penulis Publikasi" .
+<http://example.com/fukg/data/Property:P96> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama penulis publikasi" .
+<http://example.com/fukg/data/Property:P96> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Publikasi> .
+<http://example.com/fukg/data/Property:P96> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P97> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Terbit Publikasi" .
+<http://example.com/fukg/data/Property:P97> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun diterbitkannya publikasi" .
+<http://example.com/fukg/data/Property:P97> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Publikasi> .
+<http://example.com/fukg/data/Property:P97> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P98> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Publikasi" .
+<http://example.com/fukg/data/Property:P98> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis publikasi" .
+<http://example.com/fukg/data/Property:P98> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Publikasi> .
+<http://example.com/fukg/data/Property:P98> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P99> <http://www.w3.org/2000/01/rdf-schema#label> "Topik Publikasi" .
+<http://example.com/fukg/data/Property:P99> <http://www.w3.org/2000/01/rdf-schema#comment> "Topik yang dibahas dalam publikasi" .
+<http://example.com/fukg/data/Property:P99> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Publikasi> .
+<http://example.com/fukg/data/Property:P99> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P100> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Buku" .
+<http://example.com/fukg/data/Property:P100> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap buku" .
+<http://example.com/fukg/data/Property:P100> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Buku> .
+<http://example.com/fukg/data/Property:P100> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P101> <http://www.w3.org/2000/01/rdf-schema#label> "Penulis Buku" .
+<http://example.com/fukg/data/Property:P101> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama penulis buku" .
+<http://example.com/fukg/data/Property:P101> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Buku> .
+<http://example.com/fukg/data/Property:P101> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P102> <http://www.w3.org/2000/01/rdf-schema#label> "ISBN Buku" .
+<http://example.com/fukg/data/Property:P102> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor ISBN buku" .
+<http://example.com/fukg/data/Property:P102> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Buku> .
+<http://example.com/fukg/data/Property:P102> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P103> <http://www.w3.org/2000/01/rdf-schema#label> "Penerbit Buku" .
+<http://example.com/fukg/data/Property:P103> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama penerbit buku" .
+<http://example.com/fukg/data/Property:P103> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Buku> .
+<http://example.com/fukg/data/Property:P103> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P104> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Terbit Buku" .
+<http://example.com/fukg/data/Property:P104> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun diterbitkannya buku" .
+<http://example.com/fukg/data/Property:P104> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Buku> .
+<http://example.com/fukg/data/Property:P104> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P105> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Artikel" .
+<http://example.com/fukg/data/Property:P105> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap artikel" .
+<http://example.com/fukg/data/Property:P105> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Artikel> .
+<http://example.com/fukg/data/Property:P105> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P106> <http://www.w3.org/2000/01/rdf-schema#label> "Penulis Artikel" .
+<http://example.com/fukg/data/Property:P106> <http://www.w3.org/2000/01/rdf-schema#comment> "ama penulis artikel" .
+<http://example.com/fukg/data/Property:P106> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Artikel> .
+<http://example.com/fukg/data/Property:P106> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P107> <http://www.w3.org/2000/01/rdf-schema#label> "Jurnal Artikel" .
+<http://example.com/fukg/data/Property:P107> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama jurnal tempat artikel diterbitkan" .
+<http://example.com/fukg/data/Property:P107> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Artikel> .
+<http://example.com/fukg/data/Property:P107> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P108> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Terbit Artikel" .
+<http://example.com/fukg/data/Property:P108> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun diterbitkannya artikel" .
+<http://example.com/fukg/data/Property:P108> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Artikel> .
+<http://example.com/fukg/data/Property:P108> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P109> <http://www.w3.org/2000/01/rdf-schema#label> "Topik Artikel" .
+<http://example.com/fukg/data/Property:P109> <http://www.w3.org/2000/01/rdf-schema#comment> "Topik yang dibahas dalam artikel" .
+<http://example.com/fukg/data/Property:P109> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Artikel> .
+<http://example.com/fukg/data/Property:P109> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P110> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Jurnal" .
+<http://example.com/fukg/data/Property:P110> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap jurnal" .
+<http://example.com/fukg/data/Property:P110> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Jurnal> .
+<http://example.com/fukg/data/Property:P110> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P111> <http://www.w3.org/2000/01/rdf-schema#label> "Editor Jurnal" .
+<http://example.com/fukg/data/Property:P111> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama editor jurnal" .
+<http://example.com/fukg/data/Property:P111> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Jurnal> .
+<http://example.com/fukg/data/Property:P111> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P112> <http://www.w3.org/2000/01/rdf-schema#label> "Frekuensi Terbit Jurnal" .
+<http://example.com/fukg/data/Property:P112> <http://www.w3.org/2000/01/rdf-schema#comment> "Frekuensi terbitnya jurnal" .
+<http://example.com/fukg/data/Property:P112> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Jurnal> .
+<http://example.com/fukg/data/Property:P112> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P113> <http://www.w3.org/2000/01/rdf-schema#label> "ISSN Jurnal" .
+<http://example.com/fukg/data/Property:P113> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor ISSN jurnal" .
+<http://example.com/fukg/data/Property:P113> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Jurnal> .
+<http://example.com/fukg/data/Property:P113> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P114> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Studi" .
+<http://example.com/fukg/data/Property:P114> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang studi yang dibahas dalam jurnal" .
+<http://example.com/fukg/data/Property:P114> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Jurnal> .
+<http://example.com/fukg/data/Property:P114> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P115> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Laboratorium" .
+<http://example.com/fukg/data/Property:P115> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap laboratorium" .
+<http://example.com/fukg/data/Property:P115> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Laboratorium> .
+<http://example.com/fukg/data/Property:P115> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P116> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Laboratorium" .
+<http://example.com/fukg/data/Property:P116> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi laboratorium" .
+<http://example.com/fukg/data/Property:P116> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Laboratorium> .
+<http://example.com/fukg/data/Property:P116> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P117> <http://www.w3.org/2000/01/rdf-schema#label> "Kepala Laboratorium" .
+<http://example.com/fukg/data/Property:P117> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama kepala laboratorium" .
+<http://example.com/fukg/data/Property:P117> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Laboratorium> .
+<http://example.com/fukg/data/Property:P117> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P118> <http://www.w3.org/2000/01/rdf-schema#label> "Fasilitas Laboratorium" .
+<http://example.com/fukg/data/Property:P118> <http://www.w3.org/2000/01/rdf-schema#comment> "Fasilitas yang tersedia di laboratorium" .
+<http://example.com/fukg/data/Property:P118> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Laboratorium> .
+<http://example.com/fukg/data/Property:P118> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P119> <http://www.w3.org/2000/01/rdf-schema#label> "Bidang Penelitian Laboratorium" .
+<http://example.com/fukg/data/Property:P119> <http://www.w3.org/2000/01/rdf-schema#comment> "Bidang penelitian yang dilakukan di laboratorium" .
+<http://example.com/fukg/data/Property:P119> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Laboratorium> .
+<http://example.com/fukg/data/Property:P119> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P120> <http://www.w3.org/2000/01/rdf-schema#label> "Nomor Ruangan" .
+<http://example.com/fukg/data/Property:P120> <http://www.w3.org/2000/01/rdf-schema#comment> "Nomor unik untuk setiap ruangan kelas" .
+<http://example.com/fukg/data/Property:P120> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/RuanganKelas> .
+<http://example.com/fukg/data/Property:P120> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P121> <http://www.w3.org/2000/01/rdf-schema#label> "Gedung" .
+<http://example.com/fukg/data/Property:P121> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama gedung tempat ruangan kelas berada" .
+<http://example.com/fukg/data/Property:P121> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/RuanganKelas> .
+<http://example.com/fukg/data/Property:P121> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P122> <http://www.w3.org/2000/01/rdf-schema#label> "Kapasitas" .
+<http://example.com/fukg/data/Property:P122> <http://www.w3.org/2000/01/rdf-schema#comment> "Jumlah maksimum mahasiswa yang dapat ditampung dalam ruangan" .
+<http://example.com/fukg/data/Property:P122> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/RuanganKelas> .
+<http://example.com/fukg/data/Property:P122> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P123> <http://www.w3.org/2000/01/rdf-schema#label> "Fasilitas" .
+<http://example.com/fukg/data/Property:P123> <http://www.w3.org/2000/01/rdf-schema#comment> "Fasilitas yang tersedia dalam ruangan kelas" .
+<http://example.com/fukg/data/Property:P123> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/RuanganKelas> .
+<http://example.com/fukg/data/Property:P123> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P124> <http://www.w3.org/2000/01/rdf-schema#label> "Jadwal Penggunaan" .
+<http://example.com/fukg/data/Property:P124> <http://www.w3.org/2000/01/rdf-schema#comment> "Jadwal penggunaan ruangan kelas" .
+<http://example.com/fukg/data/Property:P124> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/RuanganKelas> .
+<http://example.com/fukg/data/Property:P124> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P125> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Perpustakaan" .
+<http://example.com/fukg/data/Property:P125> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap perpustakaan" .
+<http://example.com/fukg/data/Property:P125> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Perpustakaan> .
+<http://example.com/fukg/data/Property:P125> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P126> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Perpustakaan" .
+<http://example.com/fukg/data/Property:P126> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi perpustakaan" .
+<http://example.com/fukg/data/Property:P126> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Perpustakaan> .
+<http://example.com/fukg/data/Property:P126> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P127> <http://www.w3.org/2000/01/rdf-schema#label> "Jam Operasional Perpustakaan" .
+<http://example.com/fukg/data/Property:P127> <http://www.w3.org/2000/01/rdf-schema#comment> "Jam buka perpustakaan" .
+<http://example.com/fukg/data/Property:P127> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Perpustakaan> .
+<http://example.com/fukg/data/Property:P127> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P128> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Koleksi Perpustakaan" .
+<http://example.com/fukg/data/Property:P128> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah koleksi di perpustakaan" .
+<http://example.com/fukg/data/Property:P128> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Perpustakaan> .
+<http://example.com/fukg/data/Property:P128> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P129> <http://www.w3.org/2000/01/rdf-schema#label> "Fasilitas Perpustakaan" .
+<http://example.com/fukg/data/Property:P129> <http://www.w3.org/2000/01/rdf-schema#comment> "Fasilitas yang tersedia di perpustakaan" .
+<http://example.com/fukg/data/Property:P129> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Perpustakaan> .
+<http://example.com/fukg/data/Property:P129> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P130> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Seminar" .
+<http://example.com/fukg/data/Property:P130> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap seminar" .
+<http://example.com/fukg/data/Property:P130> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Seminar> .
+<http://example.com/fukg/data/Property:P130> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P131> <http://www.w3.org/2000/01/rdf-schema#label> "Pembicara Seminar" .
+<http://example.com/fukg/data/Property:P131> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama pembicara seminar" .
+<http://example.com/fukg/data/Property:P131> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Seminar> .
+<http://example.com/fukg/data/Property:P131> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P132> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal Seminar" .
+<http://example.com/fukg/data/Property:P132> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal pelaksanaan seminar" .
+<http://example.com/fukg/data/Property:P132> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Seminar> .
+<http://example.com/fukg/data/Property:P132> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P133> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Seminar" .
+<http://example.com/fukg/data/Property:P133> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi seminar" .
+<http://example.com/fukg/data/Property:P133> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Seminar> .
+<http://example.com/fukg/data/Property:P133> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P134> <http://www.w3.org/2000/01/rdf-schema#label> "Topik Seminar" .
+<http://example.com/fukg/data/Property:P134> <http://www.w3.org/2000/01/rdf-schema#comment> "Topik yang dibahas dalam seminar" .
+<http://example.com/fukg/data/Property:P134> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Seminar> .
+<http://example.com/fukg/data/Property:P134> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P135> <http://www.w3.org/2000/01/rdf-schema#label> "Judul Workshop" .
+<http://example.com/fukg/data/Property:P135> <http://www.w3.org/2000/01/rdf-schema#comment> "Judul lengkap workshop" .
+<http://example.com/fukg/data/Property:P135> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Workshop> .
+<http://example.com/fukg/data/Property:P135> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P136> <http://www.w3.org/2000/01/rdf-schema#label> "Pembicara Workshop" .
+<http://example.com/fukg/data/Property:P136> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama pembicara workshop" .
+<http://example.com/fukg/data/Property:P136> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Workshop> .
+<http://example.com/fukg/data/Property:P136> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P137> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal Workshop" .
+<http://example.com/fukg/data/Property:P137> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal pelaksanaan workshop" .
+<http://example.com/fukg/data/Property:P137> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Workshop> .
+<http://example.com/fukg/data/Property:P137> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P138> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Workshop" .
+<http://example.com/fukg/data/Property:P138> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi workshop" .
+<http://example.com/fukg/data/Property:P138> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Workshop> .
+<http://example.com/fukg/data/Property:P138> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P139> <http://www.w3.org/2000/01/rdf-schema#label> "Fokus Workshop" .
+<http://example.com/fukg/data/Property:P139> <http://www.w3.org/2000/01/rdf-schema#comment> "Fokus utama dari workshop" .
+<http://example.com/fukg/data/Property:P139> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Workshop> .
+<http://example.com/fukg/data/Property:P139> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P140> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Konferensi" .
+<http://example.com/fukg/data/Property:P140> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap konferensi" .
+<http://example.com/fukg/data/Property:P140> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Konferensi> .
+<http://example.com/fukg/data/Property:P140> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P141> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal Konferensi" .
+<http://example.com/fukg/data/Property:P141> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal pelaksanaan konferensi" .
+<http://example.com/fukg/data/Property:P141> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Konferensi> .
+<http://example.com/fukg/data/Property:P141> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P142> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Konferensi" .
+<http://example.com/fukg/data/Property:P142> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi konferensi" .
+<http://example.com/fukg/data/Property:P142> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Konferensi> .
+<http://example.com/fukg/data/Property:P142> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P143> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Peserta Konferensi" .
+<http://example.com/fukg/data/Property:P143> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah peserta konferensi" .
+<http://example.com/fukg/data/Property:P143> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Konferensi> .
+<http://example.com/fukg/data/Property:P143> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P144> <http://www.w3.org/2000/01/rdf-schema#label> "Topik Konferensi" .
+<http://example.com/fukg/data/Property:P144> <http://www.w3.org/2000/01/rdf-schema#comment> "Topik yang dibahas dalam konferensi" .
+<http://example.com/fukg/data/Property:P144> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Konferensi> .
+<http://example.com/fukg/data/Property:P144> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P145> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Kegiatan" .
+<http://example.com/fukg/data/Property:P145> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap kegiatan ekstrakurikuler" .
+<http://example.com/fukg/data/Property:P145> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KegiatanEkstrakurikuler> .
+<http://example.com/fukg/data/Property:P145> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P146> <http://www.w3.org/2000/01/rdf-schema#label> "Organisasi Penyelenggara Kegiatan" .
+<http://example.com/fukg/data/Property:P146> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama organisasi yang menyelenggarakan kegiatan" .
+<http://example.com/fukg/data/Property:P146> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KegiatanEkstrakurikuler> .
+<http://example.com/fukg/data/Property:P146> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P147> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal Kegiatan" .
+<http://example.com/fukg/data/Property:P147> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal pelaksanaan kegiatan" .
+<http://example.com/fukg/data/Property:P147> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KegiatanEkstrakurikuler> .
+<http://example.com/fukg/data/Property:P147> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P148> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Kegiatan" .
+<http://example.com/fukg/data/Property:P148> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi kegiatan" .
+<http://example.com/fukg/data/Property:P148> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KegiatanEkstrakurikuler> .
+<http://example.com/fukg/data/Property:P148> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P149> <http://www.w3.org/2000/01/rdf-schema#label> "Deskripsi Kegiatan" .
+<http://example.com/fukg/data/Property:P149> <http://www.w3.org/2000/01/rdf-schema#comment> "Penjelasan singkat tentang kegiatan" .
+<http://example.com/fukg/data/Property:P149> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KegiatanEkstrakurikuler> .
+<http://example.com/fukg/data/Property:P149> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P150> <http://www.w3.org/2000/01/rdf-schema#label> "Tanggal Wisuda" .
+<http://example.com/fukg/data/Property:P150> <http://www.w3.org/2000/01/rdf-schema#comment> "Tanggal pelaksanaan upacara wisuda" .
+<http://example.com/fukg/data/Property:P150> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Wisuda> .
+<http://example.com/fukg/data/Property:P150> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P151> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Wisuda" .
+<http://example.com/fukg/data/Property:P151> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi upacara wisuda" .
+<http://example.com/fukg/data/Property:P151> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Wisuda> .
+<http://example.com/fukg/data/Property:P151> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P152> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Wisudawan" .
+<http://example.com/fukg/data/Property:P152> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah wisudawan yang diwisuda" .
+<http://example.com/fukg/data/Property:P152> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Wisuda> .
+<http://example.com/fukg/data/Property:P152> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P153> <http://www.w3.org/2000/01/rdf-schema#label> "Pembicara Wisuda" .
+<http://example.com/fukg/data/Property:P153> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama pembicara pada upacara wisuda" .
+<http://example.com/fukg/data/Property:P153> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Wisuda> .
+<http://example.com/fukg/data/Property:P153> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P154> <http://www.w3.org/2000/01/rdf-schema#label> "Agenda Wisuda" .
+<http://example.com/fukg/data/Property:P154> <http://www.w3.org/2000/01/rdf-schema#comment> "Rangkaian acara pada upacara wisuda" .
+<http://example.com/fukg/data/Property:P154> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Wisuda> .
+<http://example.com/fukg/data/Property:P154> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P155> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Gedung" .
+<http://example.com/fukg/data/Property:P155> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap gedung akademik" .
+<http://example.com/fukg/data/Property:P155> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Gedung> .
+<http://example.com/fukg/data/Property:P155> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P156> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi" .
+<http://example.com/fukg/data/Property:P156> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi gedung akademik" .
+<http://example.com/fukg/data/Property:P156> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Gedung> .
+<http://example.com/fukg/data/Property:P156> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P157> <http://www.w3.org/2000/01/rdf-schema#label> "Tahun Pembangunan" .
+<http://example.com/fukg/data/Property:P157> <http://www.w3.org/2000/01/rdf-schema#comment> "Tahun dibangunnya gedung akademik" .
+<http://example.com/fukg/data/Property:P157> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Gedung> .
+<http://example.com/fukg/data/Property:P157> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P158> <http://www.w3.org/2000/01/rdf-schema#label> "Jumlah Lantai" .
+<http://example.com/fukg/data/Property:P158> <http://www.w3.org/2000/01/rdf-schema#comment> "Total jumlah lantai dalam gedung akademik" .
+<http://example.com/fukg/data/Property:P158> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Gedung> .
+<http://example.com/fukg/data/Property:P158> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P159> <http://www.w3.org/2000/01/rdf-schema#label> "Fasilitas" .
+<http://example.com/fukg/data/Property:P159> <http://www.w3.org/2000/01/rdf-schema#comment> "Fasilitas yang tersedia di gedung akademik" .
+<http://example.com/fukg/data/Property:P159> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Gedung> .
+<http://example.com/fukg/data/Property:P159> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P160> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Fasilitas olahraga" .
+<http://example.com/fukg/data/Property:P160> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap fasilitas olahraga" .
+<http://example.com/fukg/data/Property:P160> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/SaranaOlahraga> .
+<http://example.com/fukg/data/Property:P160> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P161> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi" .
+<http://example.com/fukg/data/Property:P161> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi fasilitas olahraga" .
+<http://example.com/fukg/data/Property:P161> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/SaranaOlahraga> .
+<http://example.com/fukg/data/Property:P161> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P162> <http://www.w3.org/2000/01/rdf-schema#label> "Jenis Olahraga" .
+<http://example.com/fukg/data/Property:P162> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis olahraga yang dapat dilakukan di fasilitas tersebut" .
+<http://example.com/fukg/data/Property:P162> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/SaranaOlahraga> .
+<http://example.com/fukg/data/Property:P162> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P163> <http://www.w3.org/2000/01/rdf-schema#label> "Jam Operasional" .
+<http://example.com/fukg/data/Property:P163> <http://www.w3.org/2000/01/rdf-schema#comment> "Jam buka fasilitas olahraga" .
+<http://example.com/fukg/data/Property:P163> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/SaranaOlahraga> .
+<http://example.com/fukg/data/Property:P163> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P164> <http://www.w3.org/2000/01/rdf-schema#label> "Kapasitas" .
+<http://example.com/fukg/data/Property:P164> <http://www.w3.org/2000/01/rdf-schema#comment> "Jumlah maksimum pengguna yang dapat ditampung dalam fasilitas olahraga" .
+<http://example.com/fukg/data/Property:P164> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/SaranaOlahraga> .
+<http://example.com/fukg/data/Property:P164> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P165> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Asrama" .
+<http://example.com/fukg/data/Property:P165> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap asrama" .
+<http://example.com/fukg/data/Property:P165> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Asrama> .
+<http://example.com/fukg/data/Property:P165> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P166> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Asrama" .
+<http://example.com/fukg/data/Property:P166> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi asrama" .
+<http://example.com/fukg/data/Property:P166> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Asrama> .
+<http://example.com/fukg/data/Property:P166> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P167> <http://www.w3.org/2000/01/rdf-schema#label> "Kapasitas Asrama" .
+<http://example.com/fukg/data/Property:P167> <http://www.w3.org/2000/01/rdf-schema#comment> "Jumlah maksimum penghuni yang dapat ditampung dalam asrama" .
+<http://example.com/fukg/data/Property:P167> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Asrama> .
+<http://example.com/fukg/data/Property:P167> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P168> <http://www.w3.org/2000/01/rdf-schema#label> "Fasilitas Asrama" .
+<http://example.com/fukg/data/Property:P168> <http://www.w3.org/2000/01/rdf-schema#comment> "Fasilitas yang tersedia di asrama" .
+<http://example.com/fukg/data/Property:P168> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Asrama> .
+<http://example.com/fukg/data/Property:P168> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P169> <http://www.w3.org/2000/01/rdf-schema#label> "Biaya Asrama" .
+<http://example.com/fukg/data/Property:P169> <http://www.w3.org/2000/01/rdf-schema#comment> "Biaya atau harga untuk tinggal di asrama" .
+<http://example.com/fukg/data/Property:P169> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Asrama> .
+<http://example.com/fukg/data/Property:P169> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P170> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Kafetaria" .
+<http://example.com/fukg/data/Property:P170> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap kafetaria" .
+<http://example.com/fukg/data/Property:P170> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kafetaria> .
+<http://example.com/fukg/data/Property:P170> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P171> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Kafetaria" .
+<http://example.com/fukg/data/Property:P171> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi kafetaria" .
+<http://example.com/fukg/data/Property:P171> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kafetaria> .
+<http://example.com/fukg/data/Property:P171> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P172> <http://www.w3.org/2000/01/rdf-schema#label> "Jam Operasional Kafetaria" .
+<http://example.com/fukg/data/Property:P172> <http://www.w3.org/2000/01/rdf-schema#comment> "Jam buka dan tutup kafetaria" .
+<http://example.com/fukg/data/Property:P172> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kafetaria> .
+<http://example.com/fukg/data/Property:P172> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P173> <http://www.w3.org/2000/01/rdf-schema#label> "Menu Kafetaria" .
+<http://example.com/fukg/data/Property:P173> <http://www.w3.org/2000/01/rdf-schema#comment> "Daftar makanan dan minuman yang tersedia di kafetaria" .
+<http://example.com/fukg/data/Property:P173> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kafetaria> .
+<http://example.com/fukg/data/Property:P173> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P174> <http://www.w3.org/2000/01/rdf-schema#label> "Kapasitas Kafetaria" .
+<http://example.com/fukg/data/Property:P174> <http://www.w3.org/2000/01/rdf-schema#comment> "Jumlah maksimum pengunjung yang dapat ditampung di kafetaria" .
+<http://example.com/fukg/data/Property:P174> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/Kafetaria> .
+<http://example.com/fukg/data/Property:P174> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P175> <http://www.w3.org/2000/01/rdf-schema#label> "Nama Klinik" .
+<http://example.com/fukg/data/Property:P175> <http://www.w3.org/2000/01/rdf-schema#comment> "Nama lengkap klinik" .
+<http://example.com/fukg/data/Property:P175> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KlinikKampus> .
+<http://example.com/fukg/data/Property:P175> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P176> <http://www.w3.org/2000/01/rdf-schema#label> "Lokasi Klinik" .
+<http://example.com/fukg/data/Property:P176> <http://www.w3.org/2000/01/rdf-schema#comment> "Alamat atau lokasi klinik" .
+<http://example.com/fukg/data/Property:P176> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KlinikKampus> .
+<http://example.com/fukg/data/Property:P176> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P177> <http://www.w3.org/2000/01/rdf-schema#label> "Jam Operasional Klinik" .
+<http://example.com/fukg/data/Property:P177> <http://www.w3.org/2000/01/rdf-schema#comment> "Jam buka dan tutup klinik" .
+<http://example.com/fukg/data/Property:P177> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KlinikKampus> .
+<http://example.com/fukg/data/Property:P177> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P178> <http://www.w3.org/2000/01/rdf-schema#label> "Layanan Klinik" .
+<http://example.com/fukg/data/Property:P178> <http://www.w3.org/2000/01/rdf-schema#comment> "Jenis-jenis layanan kesehatan yang tersedia di klinik" .
+<http://example.com/fukg/data/Property:P178> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KlinikKampus> .
+<http://example.com/fukg/data/Property:P178> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/fukg/data/Property:P179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/fukg/data/Property:P179> <http://www.w3.org/2000/01/rdf-schema#label> "Staf Medis Klinik" .
+<http://example.com/fukg/data/Property:P179> <http://www.w3.org/2000/01/rdf-schema#comment> "Daftar tenaga medis yang bekerja di klinik" .
+<http://example.com/fukg/data/Property:P179> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.com/fukg/SubClass/KlinikKampus> .
+<http://example.com/fukg/data/Property:P179> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .

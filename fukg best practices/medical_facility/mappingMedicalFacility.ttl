@@ -1,0 +1,55 @@
+#============================================================ MEDICAL FACILITY ===========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_KlinikKampus> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "klinikKampus_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/KlinikKampus/{namaKlinik}";
+  ];
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/KlinikKampus";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaKlinik";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P175; 
+    rr:objectMap [
+      rml:reference "namaKlinik";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P176; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P177; 
+    rr:objectMap [
+      rml:reference "jamOperasional";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P178; 
+    rr:objectMap [
+      rml:reference "layanan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P179; 
+    rr:objectMap [
+      rml:reference "stafMedis";
+    ];
+  ].

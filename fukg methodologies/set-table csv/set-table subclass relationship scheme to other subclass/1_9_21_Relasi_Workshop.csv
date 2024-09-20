@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R62,diikuti oleh,Workshop,Dosen
+R63,diikuti oleh,Workshop,Mahasiswa
+R64,diselenggarakan oleh,Workshop,Departemen
+R65,diselenggarakan Oleh,Workshop,OrganisasiMahasiswa

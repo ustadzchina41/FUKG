@@ -1,0 +1,14 @@
+<TripleMap_R23_Universitas_TempatBelajar> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R23_Universitas_tempatBelajar.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Universitas/{namaUniversitas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R23;
+    rr:objectMap [
+        rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+    ];
+  ].
