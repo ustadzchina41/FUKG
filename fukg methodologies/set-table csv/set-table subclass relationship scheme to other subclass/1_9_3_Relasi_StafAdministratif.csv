@@ -1,0 +1,3 @@
+ID,Relasi,Domain,Range
+R8,bekerja di,StafAdministratif,Fakultas
+R9,bekerja di departemen,StafAdministratif,Departemen

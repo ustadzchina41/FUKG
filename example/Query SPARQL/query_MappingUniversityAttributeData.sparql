@@ -1,0 +1,29 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+SELECT ?EntityLabel ?Attribute1 ?Attribute2 ?Attribute3 ?Attribute4 ?Attribute5
+WHERE {
+  ?Entity rdf:type subClass:{EntityType} ;
+          predikatData:{Property1} ?Attribute1 ;
+          predikatData:{Property2} ?Attribute2 ;
+          predikatData:{Property3} ?Attribute3 ;
+          predikatData:{Property4} ?Attribute4 ;
+          predikatData:{Property5} ?Attribute5 .
+}
+
+Contoh Penggunaan:
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+SELECT ?buildingName ?location ?yearBuilt ?numberOfFloors ?facilities
+WHERE {
+  ?gedungAkademik rdf:type subClass:GedungAkademik ;
+                  predikatData:P155 ?buildingName ;
+                  predikatData:P156 ?location ;
+                  predikatData:P157 ?yearBuilt ;
+                  predikatData:P158 ?numberOfFloors ;
+                  predikatData:P159 ?facilities .
+}

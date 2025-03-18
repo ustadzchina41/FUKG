@@ -1,0 +1,20 @@
+<TripleMap_MainClass> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "1_1_MainClass.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/fukg/MainClass/{Class}";
+  ]; 
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://www.w3.org/2000/01/rdf-schema#Class";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate rdfs:label; 
+    rr:objectMap [
+      rml:reference "Class";
+    ];
+  ].

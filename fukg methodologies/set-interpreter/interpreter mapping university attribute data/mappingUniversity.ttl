@@ -1,0 +1,55 @@
+#============================================================= UNIVERSITY ================================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Universitas> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "universitas_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Universitas/{namaUniversitas}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Universitas";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaUniversitas";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P33; 
+    rr:objectMap [
+      rml:reference "namaUniversitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P34; 
+    rr:objectMap [
+      rml:reference "rektor";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P35; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P36; 
+    rr:objectMap [
+      rml:reference "tahunBerdiri";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P37; 
+    rr:objectMap [
+      rml:reference "jumlahFakultas";
+    ];
+  ].

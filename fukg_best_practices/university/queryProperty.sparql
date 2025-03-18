@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+SELECT  ?namaUniversitas ?rektor ?lokasi ?tahunBerdiri ?jumlahFakultas
+WHERE {
+  ?universitas rdf:type subClass:Universitas ;
+              predikatData:P33 ?namaUniversitas ;
+              predikatData:P34 ?rektor ;
+              predikatData:P35 ?lokasi ;
+              predikatData:P36 ?tahunBerdiri ;
+              predikatData:P37 ?jumlahFakultas .
+}

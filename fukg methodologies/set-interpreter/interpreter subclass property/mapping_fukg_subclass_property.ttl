@@ -1,0 +1,54 @@
+<TripleMap_fukgSubclassProperty> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "fukgSubclassProperty.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/fukg/data/Property:{PID}";
+  ]; 
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://www.w3.org/2000/01/rdf-schema#Property";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "labelId";  
+      rr:language "id";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "labelEn";
+      rr:language "en";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:description;
+    rr:objectMap [
+      rml:reference "descriptionId";
+      rr:language "id";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:description;
+    rr:objectMap [
+      rml:reference "descriptionEn";
+      rr:language "en";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:domain;
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/{subclass}";
+    ];
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdfs:range;
+    rr:objectMap [
+      rr:constant "String";
+    ];
+  ].

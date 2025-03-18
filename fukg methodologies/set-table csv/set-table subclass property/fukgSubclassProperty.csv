@@ -1,0 +1,180 @@
+subclass,PID,labelId,descriptionId,labelEn,descriptionEn
+Mahasiswa,P1,Nomor Induk Mahasiswa,Nomor unik yang diberikan kepada setiap mahasiswa sebagai identifikasi,University Student ID Number,A unique number assigned to each student for identification
+Mahasiswa,P2,Nama Mahasiswa,Nama lengkap mahasiswa,University Student Name,The full name of the student
+Mahasiswa,P3,Jenis Kelamin Mahasiswa,Kategori jenis kelamin mahasiswa,University Student Gender,The gender category of the student
+Mahasiswa,P4,Program Studi Mahasiswa,Program studi atau jurusan yang diambil oleh mahasiswa,University Student Study Program,The study program or major that the student is enrolled in
+Mahasiswa,P5,Jenjang,Tingkat pendidikan yang ditempuh,Level,The level of education being pursued
+Mahasiswa,P6,Semester Awal,Semester pertama ketika mahasiswa mulai kuliah,Initial Semester,The first semester when the student started their studies
+Mahasiswa,P7,Status Awal Mahasiswa,Status mahasiswa saat pertama kali masuk,Initial Student Status,The status of the student upon entry
+Mahasiswa,P8,Status Mahasiswa Saat ini,Status terkini mahasiswa,Current University Student Status,The current status of the student
+Dosen,P9,NIDN,Nomor unik yang diberikan kepada setiap dosen sebagai identifikasi,Lecturer ID Number,A unique number assigned to each lecturer for identification
+Dosen,P10,Nama Dosen,Nama lengkap dosen,Lecturer Name,The full name of the lecturer
+Dosen,P11,Program Studi Dosen,Program studi tempat dosen mengajar,Lecturer Study Program,The study program where the lecturer teaches
+Dosen,P12,Jenis Kelamin Dosen,Kategori jenis kelamin dosen,Lecturer Gender,The gender category of the lecturer
+Dosen,P13,Jabatan Fungsionalitas,Jabatan akademik dosen,Functional Position,The academic position of the lecturer
+Dosen,P14,Pendidikan Tertinggi,Tingkat pendidikan tertinggi yang telah ditempuh dosen,Highest Education,The highest level of education attained by the lecturer
+Dosen,P15,Status Ikatan Kerja,Jenis ikatan kerja dosen,Employment Status,The type of employment contract
+Dosen,P16,Status Aktivitas,Status keaktifan dosen,Activity Status,The current activity status of the lecturer
+StafAdministratif,P17,NIP,Nomor unik yang diberikan kepada setiap staff sebagai identifikasi,University Staff ID,A unique number assigned to each university staff for identification
+StafAdministratif,P18,Nama Pegawai,Nama lengkap pegawai,University Staff Name,The full name of the staff
+StafAdministratif,P19,Departemen Pegawai,Departemen tempat pegawai bekerja,Department University Staff,The department where the university staff works
+StafAdministratif,P20,Jenis Kelamin Pegawai,Kategori jenis kelamin pegawai,University Staff Gender,The gender category of the university staff
+StafAdministratif,P21,Jabatan Fungsionalitas,Jabatan fungsional pegawai,Functional Position,The functional position of the university staff
+StafAdministratif,P22,Pendidikan Tertinggi,Tingkat pendidikan tertinggi yang telah ditempuh pegawai,Highest Education,The highest level of education attained by the university staff
+StafAdministratif,P23,Status Ikatan Kerja,Jenis ikatan kerja pegawai,Employment Status,The type of employment contract
+StafAdministratif,P24,Status Aktivitas,Status keaktifan pegawai,Activity Status,The current activity status of the employee
+Alumni,P25,Nomor Induk Mahasiswa,Nomor unik yang diberikan kepada setiap mahasiswa sebagai identifikasi,University Student ID Number,A unique number assigned to each student for identification
+Alumni,P26,Nama Mahasiswa,Nama lengkap mahasiswa,University Student Name,The full name of the student
+Alumni,P27,Jenis Kelamin Mahasiswa,Kategori jenis kelamin mahasiswa,University Student Gender,The gender category of the student
+Alumni,P28,Program Studi Mahasiswa,Program studi atau jurusan yang diambil oleh mahasiswa,University Student Study Program,The study program or major that the student is enrolled in
+Alumni,P29,Jenjang,Tingkat pendidikan yang ditempuh,Level,The level of education being pursued
+Alumni,P30,Semester Awal,Semester pertama ketika mahasiswa mulai kuliah,Initial Semester,The first semester when the student started their studies
+Alumni,P31,Status Awal Mahasiswa,Status mahasiswa saat pertama kali masuk,Initial Student Status,The status of the student upon entry
+Alumni,P32,Nomor Ijazah,Nomor unik pada ijazah yang diberikan saat lulus,Diploma Number,The unique number on the diploma issued upon graduation
+Universitas,P33,Nama Universitas,Nama lengkap universitas,University Name,The full name of the university
+Universitas,P34,Rektor,Nama rektor universitas,Rector,The name of the university's rector
+Universitas,P35,Lokasi Universitas,Alamat atau lokasi universitas,University Location,The address or location of the university
+Universitas,P36,Tahun Berdiri Universitas,Tahun berdirinya universitas,Year of Establishment,The year the university was established
+Universitas,P37,Jumlah Fakultas,Total jumlah fakultas yang ada di universitas,Number of Faculties,The total number of faculties within the university
+Fakultas,P38,Nama Fakultas,Nama lengkap fakultas,Faculty Name,The full name of the faculty 
+Fakultas,P39,Dekan Fakultas,Nama dekan fakultas,Dean,The name of the faculty's dean
+Fakultas,P40,Lokasi, Alamat atau lokasi fakultas,Location,The address or location of the faculty
+Fakultas,P41,Jumlah Departemen Fakultas,Total jumlah departemen yang ada di fakultas,Number of Department,The total number of departments within the faculty
+Fakultas,P42,Bidang Studi,Bidang studi yang ada di fakultas,Field of Study,The fields of study offered by the faculty
+Departemen,P43,Nama Departemen,Nama lengkap departemen,Department Name,The full name of the department
+Departemen,P44,Kepala Departemen,Nama kepala departemen,Department Head,The name of the department head
+Departemen,P45,Lokasi,Alamat atau lokasi departemen,Location,The address or location of the department
+Departemen,P46,Jumlah Staf Departemen,Total jumlah staf yang ada di departemen,Number of Staff,The total number of staff in the department
+Departemen,P47,Bidang Studi,Bidang studi yang ada di departemen,Field of Study,The fields of study offered by the department
+OrganisasiMahasiswa,P48,Nama Organisasi,Nama lengkap organisasi mahasiswa,Organization Name,The full name of the student organization
+OrganisasiMahasiswa,P49,Ketua Organisasi,Nama ketua organisasi mahasiswa,Organization Leader,The name of the student organization's leader
+OrganisasiMahasiswa,P50,Jumlah Anggota Organisasi,Total jumlah anggota organisasi mahasiswa,Number of Members,The total number of members in the student organization
+OrganisasiMahasiswa,P51,Bidang Kegiatan Organisasi,Bidang kegiatan yang dilakukan oleh organisasi mahasiswa,Activity Field,The fields of activities conducted by the student organization
+OrganisasiMahasiswa,P52,Tahun Berdiri Organisasi,Tahun berdirinya organisasi mahasiswa,Year of Establishment,The year the student organization was established
+MataKuliah,P53,Kode Mata Kuliah,Kode unik untuk setiap mata kuliah,Course Code,The unique code for each course
+MataKuliah,P54,Nama Mata Kuliah,Nama lengkap mata kuliah,Course Name,The full name of the course
+MataKuliah,P55,SKS Mata Kuliah,Jumlah SKS dari mata kuliah,Course Credits,The number of credits for the course
+MataKuliah,P56,Dosen Pengajar MataKuliah,Nama dosen yang mengajar mata kuliah,Lecturer,The name of the lecturer teaching the course
+MataKuliah,P57,Deskripsi MataKuliah,Penjelasan singkat tentang mata kuliah,Description,A brief explanation of the course
+MataKuliah,P58,Capaian Pembelajaran,Hasil pembelajaran yang diharapkan dari mata kuliah,Learning Outcomes,The expected learning outcomes from the course
+MataKuliah,P59,Prasyarat,Mata kuliah atau syarat yang harus dipenuhi sebelum mengambil mata kuliah ini,Prerequisites,Courses or requirements that must be met before taking this course
+MataKuliah,P60,Pokok Bahasan,Topik-topik utama yang dibahas dalam mata kuliah,Topics,The main topics covered in the course
+MataKuliah,P61,Tugas,Jenis-jenis tugas yang diberikan dalam mata kuliah,Assignments,Types of assignments given in the course
+MataKuliah,P62,Kerangka Mata kuliah,Struktur atau rencana pembelajaran mata kuliah,Course Outline,The structure or plan of the course
+MataKuliah,P63,Pustaka,Referensi atau bahan bacaan untuk mata kuliah,References,References or reading materials for the course
+MataKuliah,P64,Pembobotan Nilai,Proporsi penilaian untuk berbagai komponen dalam mata kuliah,Grading Weight,The proportion of grading for various components of the course
+MataKuliah,P65,Distribusi Nilai,Pembagian nilai yang diberikan kepada mahasiswa berdasarkan kinerja mereka dalam mata kuliah,Grading Distribution,The breakdown of grades awarded to students based on their performance in the course
+ProgramStudi,P66,Status Program Studi,Status akreditasi atau legalitas program studi,Program Status,The accreditation or legal status of the study program
+ProgramStudi,P67,Kode Program Studi,Kode unik untuk program studi,Program Code,The unique code for the study program
+ProgramStudi,P68,Nama Program Studi,Nama lengkap program studi,Program Name,The full name of the study program
+ProgramStudi,P69,Jenjang,Tingkat pendidikan yang ditawarkan,Level,The level of education offered
+ProgramStudi,P70,Akreditasi,Status akreditasi program studi,Accreditation,The accreditation status of the study program
+ProgramStudi,P71,Tanggal berdiri,Tanggal berdirinya program studi,Date of Establishment,The date the study program was established
+ProgramStudi,P72,SK Penyelenggaraan,Surat Keputusan tentang penyelenggaraan program studi,Establishment Decree,The decree about the establishment of the study program
+ProgramStudi,P73,Tanggal SK,Tanggal penerbitan Surat Keputusan,Decree Date,The date the decree was issued
+ProgramStudi,P74,Alamat Program Studi,Alamat lengkap program studi,Program Address,The full address of the study program
+ProgramStudi,P75,Kode Pos,Kode pos dari lokasi program studi,Postal Code,The postal code of the study program location
+ProgramStudi,P76,Telepon,Nomor telepon program studi,Phone,The phone number of the study program
+ProgramStudi,P77,Faximile,Nomor faks program studi,Fax,The fax number of the study program
+ProgramStudi,P78,Email,Alamat email program studi,Email,The email address of the study program
+ProgramStudi,P79,Website,Situs web resmi program studi,Website,The official website of the study program
+ProgramStudi,P80,Deskripsi Program Studi,Penjelasan singkat tentang program studi,Program Description,A brief explanation of the study program
+ProgramStudi,P81,Visi,Visi dari program studi,Vision,The vision of the study program
+ProgramStudi,P82,Misi,Misi dari program studi,Mission,The mission of the study program
+ProgramStudi,P83,Kompetensi Program Studi,Kompetensi yang dihasilkan dari program studi,Competencies,The competencies produced by the study program
+Kurikulum,P84,Nama Kurikulum,Nama lengkap kurikulum,Curriculum Name,The full name of the curriculum
+Kurikulum,P85,Tahun Ajaran,Tahun ajaran saat kurikulum berlaku,Academic Year,he academic year when the curriculum is in effect
+Kurikulum,P86,Deskripsi Kurikulum,Penjelasan singkat tentang kurikulum,Curriculum Description,A brief explanation of the curriculum
+Kurikulum,P87,Jumlah MataKuliah Kurikulum,Total jumlah mata kuliah dalam kurikulum,Number of Courses,The total number of courses in the curriculum
+Kurikulum,P88,Program Studi,Program studi yang menggunakan kurikulum,Study Program,The study program that uses the curriculum
+Kurikulum,P89,Update terakhir,Tanggal terakhir kurikulum diperbarui,Last Update,The date the curriculum was last updated
+Penelitian,P90,Judul Penelitian,Judul lengkap penelitian,Research Title,The full title of the research
+Penelitian,P91,Peneliti Utama,Nama peneliti utama,Principal Researcher,The name of the principal researcher
+Penelitian,P92,Bidang Studi Penelitian,Bidang studi yang relevan dengan penelitian,Field of Study,The field of study relevant to the research
+Penelitian,P93,Tahun Penelitian,Tahun dilaksanakannya penelitian,Research Year,The year the research was conducted
+Penelitian,P94,Hasil Penelitian,Ringkasan hasil dari penelitian,Research Results,A summary of the research findings
+Publikasi,P95,Judul Publikasi,Judul lengkap publikasi,Publication Title,The full title of the publication
+Publikasi,P96,Penulis Publikasi,Nama penulis publikasi,Publication Author,The name of the publication's author
+Publikasi,P97,Tahun Terbit Publikasi,Tahun diterbitkannya publikasi,Publication Year,The year the publication was issued
+Publikasi,P98,Jenis Publikasi,Jenis publikasi,Publication Type,The type of publication
+Publikasi,P99,Topik Publikasi,Topik yang dibahas dalam publikasi,Publication Topic,The topic covered in the publication
+Buku,P100,Judul Buku,Judul lengkap buku,Book Title,The full title of the book
+Buku,P101,Penulis Buku,Nama penulis buku,Book Author,The name of the book's author
+Buku,P102,ISBN Buku,Nomor ISBN buku,ISBN,The ISBN number of the book
+Buku,P103,Penerbit Buku,Nama penerbit buku,Publisher,The name of the books publisher
+Buku,P104,Tahun Terbit Buku,Tahun diterbitkannya buku,Publication Year,The year the book was published
+Artikel,P105,Judul Artikel,Judul lengkap artikel,Article Title,The full title of the article
+Artikel,P106,Penulis Artikel,ama penulis artikel,Article Author,The name of the article's author
+Artikel,P107,Jurnal Artikel,Nama jurnal tempat artikel diterbitkan,Journal Name,The name of the journal where the article was published
+Artikel,P108,Tahun Terbit Artikel,Tahun diterbitkannya artikel,Publication Year,The year the article was published
+Artikel,P109,Topik Artikel,Topik yang dibahas dalam artikel,Article Topic,The topic covered in the article
+Jurnal,P110,Nama Jurnal,Nama lengkap jurnal,Journal Name,The full name of the journal
+Jurnal,P111,Editor Jurnal,Nama editor jurnal,Journal Editor,The name of the journal's editor
+Jurnal,P112,Frekuensi Terbit Jurnal,Frekuensi terbitnya jurnal,Publication Frequency,The frequency of journal publication
+Jurnal,P113,ISSN Jurnal,Nomor ISSN jurnal,ISSN,The ISSN number of the journal
+Jurnal,P114,Bidang Studi,Bidang studi yang dibahas dalam jurnal,Field of Study,The field of study covered by the journal
+Laboratorium,P115,Nama Laboratorium,Nama lengkap laboratorium,Laboratory Name,The full name of the laboratory
+Laboratorium,P116,Lokasi Laboratorium,Alamat atau lokasi laboratorium,Laboratory Location,The address or location of the laboratory
+Laboratorium,P117,Kepala Laboratorium,Nama kepala laboratorium,Laboratory Head,The name of the laboratory head
+Laboratorium,P118,Fasilitas Laboratorium,Fasilitas yang tersedia di laboratorium,Laboratory Facilities,The facilities available in the laboratory
+Laboratorium,P119,Bidang Penelitian Laboratorium,Bidang penelitian yang dilakukan di laboratorium,Laboratory Research Field,The research fields conducted in the laboratory
+RuanganKelas,P120,Nomor Ruangan,Nomor unik untuk setiap ruangan kelas,Room Number,The unique number for each classroom
+RuanganKelas,P121,Gedung,Nama gedung tempat ruangan kelas berada,Building,The name of the building where the classroom is located
+RuanganKelas,P122,Kapasitas,Jumlah maksimum mahasiswa yang dapat ditampung dalam ruangan,Capacity,The maximum number of students the classroom can accommodate
+RuanganKelas,P123,Fasilitas,Fasilitas yang tersedia dalam ruangan kelas,Facilities,The facilities available in the classroom
+RuanganKelas,P124,Jadwal Penggunaan,Jadwal penggunaan ruangan kelas,Usage Schedule,The schedule for classroom usage
+Perpustakaan,P125,Nama Perpustakaan,Nama lengkap perpustakaan,Library Name,The full name of the library
+Perpustakaan,P126,Lokasi Perpustakaan,Alamat atau lokasi perpustakaan,Library Location,The address or location of the library
+Perpustakaan,P127,Jam Operasional Perpustakaan,Jam buka perpustakaan,Library Operating Hours,The opening hours of the library
+Perpustakaan,P128,Jumlah Koleksi Perpustakaan,Total jumlah koleksi di perpustakaan,Library Collection,The total number of collections in the library
+Perpustakaan,P129,Fasilitas Perpustakaan,Fasilitas yang tersedia di perpustakaan,Library Facilities,The facilities available in the library
+Seminar,P130,Judul Seminar,Judul lengkap seminar,Seminar Title,The full title of the seminar
+Seminar,P131,Pembicara Seminar,Nama pembicara seminar,Seminar Speaker,The name of the seminar speaker
+Seminar,P132,Tanggal Seminar,Tanggal pelaksanaan seminar,Seminar Date,The date of the seminar
+Seminar,P133,Lokasi Seminar,Alamat atau lokasi seminar,Seminar Location,The address or location of the seminar
+Seminar,P134,Topik Seminar,Topik yang dibahas dalam seminar,Seminar Topic,The topic covered in the seminar
+Workshop,P135,Judul Workshop,Judul lengkap workshop,Workshop Title,The full title of the workshop
+Workshop,P136,Pembicara Workshop,Nama pembicara workshop,Workshop Speaker,The name of the workshop speaker
+Workshop,P137,Tanggal Workshop,Tanggal pelaksanaan workshop,Workshop Date,The date of the workshop
+Workshop,P138,Lokasi Workshop,Alamat atau lokasi workshop,Workshop Location,The address or location of the workshop
+Workshop,P139,Fokus Workshop,Fokus utama dari workshop,Workshop Focus,The main focus of the workshop
+Konferensi,P140,Nama Konferensi,Nama lengkap konferensi,Conference Name,The full name of the conference
+Konferensi,P141,Tanggal Konferensi,Tanggal pelaksanaan konferensi,Conference Date,The date of the conference
+Konferensi,P142,Lokasi Konferensi,Alamat atau lokasi konferensi,Conference Location,The address or location of the conference
+Konferensi,P143,Jumlah Peserta Konferensi,Total jumlah peserta konferensi,Conference Participants,The total number of participants in the conference
+Konferensi,P144,Topik Konferensi,Topik yang dibahas dalam konferensi,Conference Topic,The topic covered in the conference
+KegiatanEkstrakurikuler,P145,Nama Kegiatan,Nama lengkap kegiatan ekstrakurikuler,Activity Name,The full name of the extracurricular activity
+KegiatanEkstrakurikuler,P146,Organisasi Penyelenggara Kegiatan,Nama organisasi yang menyelenggarakan kegiatan,Organizing Body,The name of the organization hosting the activity
+KegiatanEkstrakurikuler,P147,Tanggal Kegiatan,Tanggal pelaksanaan kegiatan,Activity Date,The date of the activity
+KegiatanEkstrakurikuler,P148,Lokasi Kegiatan,Alamat atau lokasi kegiatan,Activity Location,The address or location of the activity
+KegiatanEkstrakurikuler,P149,Deskripsi Kegiatan,Penjelasan singkat tentang kegiatan,Activity Description,A brief description of the activity
+UpacaraWisuda,P150,Tanggal Wisuda,Tanggal pelaksanaan upacara wisuda,Graduation Date,The date of the graduation ceremony
+UpacaraWisuda,P151,Lokasi Wisuda,Alamat atau lokasi upacara wisuda,Graduation Location,The address or location of the graduation ceremony
+UpacaraWisuda,P152,Jumlah Wisudawan,Total jumlah wisudawan yang diwisuda,Number of Graduates,The total number of graduates being conferred degrees
+UpacaraWisuda,P153,Pembicara Wisuda,Nama pembicara pada upacara wisuda,Graduation Speaker,The name of the speaker at the graduation ceremony
+UpacaraWisuda,P154,Agenda Wisuda,Rangkaian acara pada upacara wisuda,Graduation Agenda,The sequence of events at the graduation ceremony
+GedungAkademik,P155,Nama Gedung,Nama lengkap gedung akademik,Building Name,The full name of the academic building
+GedungAkademik,P156,Lokasi,Alamat atau lokasi gedung akademik,Location,The address or location of the academic building
+GedungAkademik,P157,Tahun Pembangunan,Tahun dibangunnya gedung akademik,Year of Construction,The year the academic building was constructed
+GedungAkademik,P158,Jumlah Lantai,Total jumlah lantai dalam gedung akademik,Number of Floors,The total number of floors in the academic building
+GedungAkademik,P159,Fasilitas,Fasilitas yang tersedia di gedung akademik,Facilities,The facilities available in the academic building
+SaranaOlahraga,P160,Nama Fasilitas olahraga,Nama lengkap fasilitas olahraga,Sports Facility Name,The full name of the sports facility
+SaranaOlahraga,P161,Lokasi,Alamat atau lokasi fasilitas olahraga,Location,The address or location of the sports facility
+SaranaOlahraga,P162,Jenis Olahraga,Jenis olahraga yang dapat dilakukan di fasilitas tersebut,Type of Sport,The types of sports that can be conducted in the facility
+SaranaOlahraga,P163,Jam Operasional,Jam buka fasilitas olahraga,Operating Hours,The opening hours of the sports facility
+SaranaOlahraga,P164,Kapasitas,Jumlah maksimum pengguna yang dapat ditampung dalam fasilitas olahraga,Capacity,The maximum number of users the sports facility can accommodate
+Asrama,P165,Nama Asrama,Nama lengkap asrama,Dormitory Name,The full name of the dormitory
+Asrama,P166,Lokasi Asrama,Alamat atau lokasi asrama,Dormitory Location,The address or location of the dormitory
+Asrama,P167,Kapasitas Asrama,Jumlah maksimum penghuni yang dapat ditampung dalam asrama,Dormitory Capacity,The maximum number of residents the dormitory can accommodate
+Asrama,P168,Fasilitas Asrama,Fasilitas yang tersedia di asrama,Dormitory Facilities,The facilities available in the dormitory
+Asrama,P169,Biaya Asrama,Biaya atau harga untuk tinggal di asrama,Dormitory Cost,The cost or fee for staying in the dormitory
+Kafetaria,P170,Nama Kafetaria,Nama lengkap kafetaria,Cafeteria Name,The full name of the cafeteria
+Kafetaria,P171,Lokasi Kafetaria,Alamat atau lokasi kafetaria,Cafeteria Location,The address or location of the cafeteria
+Kafetaria,P172,Jam Operasional Kafetaria,Jam buka dan tutup kafetaria,Cafeteria Operating Hours,The opening and closing hours of the cafeteria
+Kafetaria,P173,Menu Kafetaria,Daftar makanan dan minuman yang tersedia di kafetaria,Cafeteria Menu,The list of food and beverages available in the cafeteria
+Kafetaria,P174,Kapasitas Kafetaria,Jumlah maksimum pengunjung yang dapat ditampung di kafetaria,Cafeteria Capacity,The maximum number of patrons the cafeteria can accommodate
+KlinikKampus,P175,Nama Klinik,Nama lengkap klinik,Clinic Name,The full name of the clinic
+KlinikKampus,P176,Lokasi Klinik,Alamat atau lokasi klinik,Clinic Location,The address or location of the clinic
+KlinikKampus,P177,Jam Operasional Klinik,Jam buka dan tutup klinik,Clinic Operating Hours,The opening and closing hours of the clinic
+KlinikKampus,P178,Layanan Klinik,Jenis-jenis layanan kesehatan yang tersedia di klinik,Clinic Services,The types of health services available in the clinic
+KlinikKampus,P179,Staf Medis Klinik,Daftar tenaga medis yang bekerja di klinik,Medical Staff,The list of medical staff working in the clinic

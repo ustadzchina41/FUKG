@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R52,terdapat di,RuanganKelas,Departemen
+R53,terdapat di,RuanganKelas,Fakultas
+R54,digunakan untuk kuliah,RuanganKelas,MataKuliah

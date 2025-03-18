@@ -1,0 +1,14 @@
+<TripleMap_R52_RuanganKelas_TerdapatDi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R52_RuanganKelas_terdapatDi.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/RuanganKelas/{nomorRuanganKelas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R52;
+    rr:objectMap [
+        rr:template "http://example.com/Departemen/{namaDepartemen}";
+    ];
+  ].

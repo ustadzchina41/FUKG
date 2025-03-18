@@ -1,0 +1,55 @@
+#============================================================== ACADEMIC LIBRARY  ========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Perpustakaan> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "perpustakaan_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Perpustakaan/{namaPerpustakaan}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Perpustakaan";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaPerpustakaan";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P125; 
+    rr:objectMap [
+      rml:reference "namaPerpustakaan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P126; 
+    rr:objectMap [
+      rml:reference "lokasiPerpustakaan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P127; 
+    rr:objectMap [
+      rml:reference "jamOperasionalPerpustakaan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P128; 
+    rr:objectMap [
+      rml:reference "jumlahKoleksiPerpustakaan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P129; 
+    rr:objectMap [
+      rml:reference "fasilitasPerpustakaan";
+    ];
+  ].

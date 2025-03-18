@@ -1,0 +1,29 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX Rel: <http://example.com/fukg/data/Relasi:> 
+PREFIX Property: <http://example.com/fukg/data/Property:> 
+
+SELECT ?DomainLabel ?RangeLabel 
+WHERE {
+  ?SubClassDomain Rel:{Relasi} ?SubClassRange .
+  
+  OPTIONAL {
+    ?SubClassDomain Property:{PropertyDomain} ?DomainLabel .
+    ?SubClassRange Property:{PropertyRange} ?RangeLabel .
+  }
+}
+
+
+Contoh penggunaan:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX Rel: <http://example.com/fukg/data/Relasi:> 
+PREFIX Property: <http://example.com/fukg/data/Property:> 
+
+SELECT ?AcademicBuildingLabel ?UniversityLabel 
+WHERE {
+  ?SubClassDomain Rel:R74 ?SubClassRange .
+  
+  OPTIONAL {
+    ?SubClassDomain Property:P155 ?AcademicBuildingLabel .
+    ?SubClassRange Property:P33 ?UniversityLabel .
+  }
+}

@@ -1,0 +1,14 @@
+<TripleMap_R48_Jurnal_TerdapatDi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R48_Jurnal_terdapatDi.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Jurnal/{namaJurnal}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R48;
+    rr:objectMap [
+        rr:template "http://example.com/Perpustakaan/{namaPerpustakaan}";
+    ];
+  ].

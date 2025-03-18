@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R86,bagian dari,KlinikKampus,Universitas
+R87,melayani,KlinikKampus,Mahasiswa
+R88,melayani,KlinikKampus,Dosen
+R89,melayani,KlinikKampus,StafAdministratif

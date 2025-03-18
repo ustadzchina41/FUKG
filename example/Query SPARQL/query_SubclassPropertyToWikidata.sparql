@@ -1,0 +1,20 @@
+// Query untuk Melihat Daftar Properti yang Dipetakan ke Wikidata
+PREFIX map: <http://example.com/fukg/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?propertyFUKG ?propertyWikidata
+WHERE {
+  ?propertyFUKG map:mappedto ?propertyWikidata .
+}
+
+
+// Query untuk Menampilkan Label Properti FUKG dan Properti Wikidata
+
+PREFIX map: <http://example.com/fukg/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?propertyFUKG ?labelFUKG ?propertyWikidata 
+WHERE {
+  ?propertyFUKG map:mappedto ?propertyWikidata ;
+                rdfs:label ?labelFUKG .
+}

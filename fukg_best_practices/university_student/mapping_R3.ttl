@@ -1,0 +1,14 @@
+<TripleMap_R3_Mahasiswa_AnggotaDari> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "9_1_R3_Mahasiswa_anggotaDari.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R3;
+    rr:objectMap [
+        rr:template "http://example.com/OrganisasiMahasiswa/{namaOrganisasi}";
+    ];
+  ].

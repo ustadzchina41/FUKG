@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX subClass: <http://example.com/fukg/SubClass/>
+PREFIX mainClass: <http://example.com/fukg/MainClass/>
+
+SELECT ?subclassURI ?subclassLabel ?wikidataLink
+WHERE {
+  ?subclassURI rdfs:subClassOf mainClass:isiLabelMainclassdisini ;
+               rdfs:label ?subclassLabel ;
+               schema:sameAs ?wikidataLink .
+}
+

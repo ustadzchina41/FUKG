@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R27,diikuti oleh,OrganisasiMahasiswa,Mahasiswa
+R28,bagian dari,OrganisasiMahasiswa,Universitas
+R29,bagian dari,OrganisasiMahasiswa,Fakultas

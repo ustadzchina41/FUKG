@@ -1,0 +1,73 @@
+#====================================================== UNIVERSITY LECTURE ===============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Dosen> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "dosen_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Dosen/{NIDN}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Dosen";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "nama";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P9; 
+    rr:objectMap [
+      rml:reference "NIDN";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P10; 
+    rr:objectMap [
+      rml:reference "nama";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P11; 
+    rr:objectMap [
+      rml:reference "programStudi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P12; 
+    rr:objectMap [
+      rml:reference "jenisKelamin";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P13; 
+    rr:objectMap [
+      rml:reference "jabatanFungsional";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P14; 
+    rr:objectMap [
+      rml:reference "pendidikanTertinggi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P15; 
+    rr:objectMap [
+      rml:reference "statusIkatanKerja";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P16; 
+    rr:objectMap [
+      rml:reference "statusAktivitas";
+    ];
+  ].

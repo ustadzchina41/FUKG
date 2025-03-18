@@ -1,0 +1,55 @@
+#================================================================= SEMINAR  ==============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Seminar> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "seminar_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Seminar/{judulSeminar}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Seminar";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "judulSeminar";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P130; 
+    rr:objectMap [
+      rml:reference "judulSeminar";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P131; 
+    rr:objectMap [
+      rml:reference "pembicara";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P132; 
+    rr:objectMap [
+      rml:reference "tanggal";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P133; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P134; 
+    rr:objectMap [
+      rml:reference "topik";
+    ];
+  ].

@@ -1,0 +1,14 @@
+<TripleMap_R36_Penelitian_DilakukanOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R36_Penelitian_dilakukanOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Penelitian/{judulPenelitian}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R36;
+    rr:objectMap [
+        rr:template "http://example.com/Dosen/{NIDN}";
+    ];
+  ].

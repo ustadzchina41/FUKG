@@ -1,0 +1,55 @@
+#=============================================================== STUDENT ORGANIZATION ====================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_OrganisasiMahasiswa> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "organisasiMahasiswa_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/OrganisasiMahasiswa/{namaOrganisasi}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/OrganisasiMahasiswa";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaOrganisasi";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P48; 
+    rr:objectMap [
+      rml:reference "namaOrganisasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P49; 
+    rr:objectMap [
+      rml:reference "ketua";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P50; 
+    rr:objectMap [
+      rml:reference "jumlahAnggota";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P51; 
+    rr:objectMap [
+      rml:reference "bidangKegiatan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P52; 
+    rr:objectMap [
+      rml:reference "tahunBerdiri";
+    ];
+  ].

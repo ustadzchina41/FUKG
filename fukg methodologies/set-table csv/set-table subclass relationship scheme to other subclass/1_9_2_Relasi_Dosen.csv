@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R4,mengajar mata kuliah,Dosen,MataKuliah
+R5,melakukan penelitian,Dosen,Penelitian
+R6,terafiliasi dengan,Dosen,Departemen
+R7,menulis publikasi,Dosen,Publikasi

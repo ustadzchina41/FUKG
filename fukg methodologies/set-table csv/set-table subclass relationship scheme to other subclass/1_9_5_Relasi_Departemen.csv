@@ -1,0 +1,7 @@
+ID,Relasi,Domain,Range
+R12,bagian dari departemen,Departemen,Fakultas
+R13,menawarkan program studi,Departemen,ProgramStudi
+R14,mengelola program studi,Departemen,MataKuliah
+R15,adalah tempat penelitian,Departemen,Penelitian
+R16,tempat kerja,Departemen,Dosen
+R17,tempat kerja,Departemen,StafAdministratif

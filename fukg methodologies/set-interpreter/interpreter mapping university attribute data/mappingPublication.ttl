@@ -1,0 +1,55 @@
+#================================================================= PUBLICATION  ==========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Publikasi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "publikasi_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Publikasi/{judulPublikasi}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Publikasi";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "judulPublikasi";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P95; 
+    rr:objectMap [
+      rml:reference "judulPublikasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P96; 
+    rr:objectMap [
+      rml:reference "penulis";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P97; 
+    rr:objectMap [
+      rml:reference "tahunTerbit";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P98; 
+    rr:objectMap [
+      rml:reference "jenisPublikasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P99; 
+    rr:objectMap [
+      rml:reference "topik";
+    ];
+  ].

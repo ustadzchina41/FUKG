@@ -1,0 +1,73 @@
+#=============================================================== ALUMNUS =================================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Alumni> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "alumni_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Alumni/{nomorIndukMahasiswa}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Alumni";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "nama";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:25; 
+    rr:objectMap [
+      rml:reference "nomorIndukMahasiswa";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P26; 
+    rr:objectMap [
+      rml:reference "nama";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P27; 
+    rr:objectMap [
+      rml:reference "jenisKelamin";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P28; 
+    rr:objectMap [
+      rml:reference "programStudi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P29; 
+    rr:objectMap [
+      rml:reference "jenjang";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P30; 
+    rr:objectMap [
+      rml:reference "semesterAwal";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P31; 
+    rr:objectMap [
+      rml:reference "statusAwalMahasiswa";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P32; 
+    rr:objectMap [
+      rml:reference "nomorIjazah";
+    ];
+  ].

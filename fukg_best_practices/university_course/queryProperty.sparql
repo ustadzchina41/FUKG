@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+
+SELECT  ?kodeMataKuliah ?namaMataKuliah ?SKSMataKuliah ?dosenPengajarMataKuliah ?deskripsiMataKuliah
+       ?capaianPembelajaran ?prasyarat ?pokokBahasan ?tugas ?kerangkaMatakuliah ?pustaka ?pembobotanNilai ?distribusiNilai
+WHERE {
+  ?matakuliah rdf:type subClass:MataKuliah ;
+              predikatData:P53 ?kodeMataKuliah ;
+              predikatData:P54 ?namaMataKuliah ;
+              predikatData:P55 ?SKSMataKuliah ;
+              predikatData:P56 ?dosenPengajarMataKuliah ;
+              predikatData:P57 ?deskripsiMataKuliah ;
+              predikatData:P58 ?capaianPembelajaran ;
+              predikatData:P59 ?prasyarat ;
+              predikatData:P60 ?pokokBahasan ;
+              predikatData:P61 ?tugas ;
+              predikatData:P62 ?kerangkaMatakuliah ;
+              predikatData:P63 ?pustaka ;
+              predikatData:P64 ?pembobotanNilai ;
+              predikatData:P65 ?distribusiNilai .
+}

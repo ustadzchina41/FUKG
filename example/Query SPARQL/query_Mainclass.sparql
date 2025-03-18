@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mainClass: <http://example.com/fukg/MainClass/>
+
+SELECT ?classURI ?classLabel
+WHERE {
+  ?classURI rdf:type rdfs:Class ;
+            rdfs:label ?classLabel .
+}

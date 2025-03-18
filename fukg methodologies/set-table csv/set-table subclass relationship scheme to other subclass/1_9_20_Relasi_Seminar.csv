@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R58,diikuti oleh,Seminar,Dosen
+R59,diikuti oleh,Seminar,Mahasiswa
+R60,diselenggarakan oleh,Seminar,Departemen
+R61,diselenggarakan oleh,Seminar,OrganisasiMahasiswa

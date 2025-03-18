@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R39,ditulis oleh,Publikasi,Dosen
+R40,ditulis oleh,Publikasi,Mahasiswa
+R41,berasal dari,Publikasi,Penelitian

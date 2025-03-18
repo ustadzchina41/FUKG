@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R74,bagian dari,GedungAkademik,Universitas
+R75,tempat kegiatan,GedungAkademik,MataKuliah
+R76,tempat kegiatan,GedungAkademik,Seminar

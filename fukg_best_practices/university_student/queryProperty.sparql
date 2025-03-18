@@ -1,0 +1,16 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+SELECT  ?namaMahasiswa ?nomorIndukMahasiswa ?jenisKelamin ?programStudi ?jenjang ?semesterAwal ?statusAwalMahasiswa ?statusMahasiswaSaatIni
+WHERE {
+  ?mahasiswa rdf:type subClass:Mahasiswa ;
+             predikatData:P1 ?nomorIndukMahasiswa ;
+             predikatData:P2 ?namaMahasiswa ;
+             predikatData:P3 ?jenisKelamin ;
+             predikatData:P4 ?programStudi ;
+             predikatData:P5 ?jenjang ;
+             predikatData:P6 ?semesterAwal ;
+             predikatData:P7 ?statusAwalMahasiswa ;
+             predikatData:P8 ?statusMahasiswaSaatIni .
+}

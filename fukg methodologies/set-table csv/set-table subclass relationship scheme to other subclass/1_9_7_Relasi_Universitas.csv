@@ -1,0 +1,7 @@
+ID,Relasi,Domain,Range
+R21,memiliki fakultas,Universitas,Fakultas
+R22,memiliki departemen,Universitas,Departemen
+R23,adalah tempat belajar,Universitas,Mahasiswa
+R24,adalah tempat kerja,Universitas,Dosen
+R25,adalah tempat kerja,Universitas,StafAdministratif
+R26,adalah tempat penelitian,Universitas,Penelitian

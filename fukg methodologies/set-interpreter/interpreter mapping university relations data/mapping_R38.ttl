@@ -1,0 +1,14 @@
+<TripleMap_R38_Penelitian_TerkaitDengan> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R38_Penelitian_terkaitDengan.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Penelitian/{judulPenelitian}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R38;
+    rr:objectMap [
+        rr:template "http://example.com/Departemen/{namaDepartemen}";
+    ];
+  ].

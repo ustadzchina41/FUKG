@@ -1,0 +1,55 @@
+#============================================================ ACADEMIC WORKSHOP ==========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Workshop> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "workshop_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Workshop/{judulWorkshop}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Workshop";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "judulWorkshop";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P135; 
+    rr:objectMap [
+      rml:reference "judulWorkshop";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P136; 
+    rr:objectMap [
+      rml:reference "pembicara";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P137; 
+    rr:objectMap [
+      rml:reference "tanggal";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P138; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P139; 
+    rr:objectMap [
+      rml:reference "fokus";
+    ];
+  ].

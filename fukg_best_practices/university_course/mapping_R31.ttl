@@ -1,0 +1,14 @@
+<TripleMap_R31_MataKuliah_DiambilOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R31_MataKuliah_diambilOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R31;
+    rr:objectMap [
+        rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+    ];
+  ].

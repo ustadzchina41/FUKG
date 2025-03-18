@@ -1,0 +1,5 @@
+ID,Relasi,Domain,Range
+R66,diikuti oleh,Konferensi,Dosen
+R67,diikuti oleh,Konferensi,Mahasiswa
+R68,diselenggarakan oleh,Konferensi,Fakultas
+R69,diselenggarakan oleh,Konferensi,Universitas

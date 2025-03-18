@@ -1,0 +1,27 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX predikatData: <http://example.com/fukg/data/Property:> 
+PREFIX subClass: <http://example.com/fukg/SubClass/> 
+
+SELECT  ?statusProgramStudi ?kodeProgramStudi ?namaProgramStudi ?jenjang ?akreditasi ?tanggalBerdiri ?SKPenyelenggaraan
+       ?tanggalSK ?alamatProgramStudi ?kodePos ?telepon ?faximile ?email ?website ?deskripsi ?visi ?misi ?kompetensiProgramStudi
+WHERE {
+  ?programStudi rdf:type subClass:ProgramStudi ;
+               predikatData:P66 ?statusProgramStudi ;
+               predikatData:P67 ?kodeProgramStudi ;
+               predikatData:P68 ?namaProgramStudi ;
+               predikatData:P69 ?jenjang ;
+               predikatData:P70 ?akreditasi ;
+               predikatData:P71 ?tanggalBerdiri ;
+               predikatData:P72 ?SKPenyelenggaraan ;
+               predikatData:P73 ?tanggalSK ;
+               predikatData:P74 ?alamatProgramStudi ;
+               predikatData:P75 ?kodePos ;
+               predikatData:P76 ?telepon ;
+               predikatData:P77 ?faximile ;
+               predikatData:P78 ?email ;
+               predikatData:P79 ?website ;
+               predikatData:P80 ?deskripsi ;
+               predikatData:P81 ?visi ;
+               predikatData:P82 ?misi ;
+               predikatData:P83 ?kompetensiProgramStudi .
+}

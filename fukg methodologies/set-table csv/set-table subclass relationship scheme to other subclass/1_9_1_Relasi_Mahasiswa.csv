@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R1,mengambil mata kuliah,Mahasiswa,MataKuliah
+R2,terdaftar di program studi,Mahasiswa,ProgramStudi
+R3,anggota dari organisasi mahasiswa,Mahasiswa,OrganisasiMahasiswa

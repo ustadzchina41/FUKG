@@ -1,0 +1,14 @@
+<TripleMap_R15_Departemen_TempatPenelitian> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R15_departemen_tempatPenelitian.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Departemen/{namaDepartemen}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R15;
+    rr:objectMap [
+        rr:template "http://example.com/Penelitian/{judulPenelitian}";
+    ];
+  ].

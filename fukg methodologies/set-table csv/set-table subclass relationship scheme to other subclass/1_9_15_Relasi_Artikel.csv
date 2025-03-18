@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R45,terdapat di,Artikel,Jurnal
+R46,digunakan oleh,Artikel,Dosen
+R47,digunakan oleh,Artikel,Mahasiswa

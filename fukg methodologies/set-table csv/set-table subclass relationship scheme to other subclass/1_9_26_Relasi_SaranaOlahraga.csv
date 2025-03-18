@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R77,bagian dari,SaranaOlahraga,Universitas
+R78,digunakan oleh,SaranaOlahraga,Dosen
+R79,digunakan oleh,SaranaOlahraga,Mahasiswa

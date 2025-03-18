@@ -1,0 +1,55 @@
+#============================================================== CLASSROOM  ===============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_RuanganKelas> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "ruanganKelas_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/RuanganKelas/{nomorRuangan}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/RuanganKelas";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "nomorRuangan";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P120; 
+    rr:objectMap [
+      rml:reference "nomorRuangan";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P121; 
+    rr:objectMap [
+      rml:reference "gedung";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P122; 
+    rr:objectMap [
+      rml:reference "kapasitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P123; 
+    rr:objectMap [
+      rml:reference "fasilitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P124; 
+    rr:objectMap [
+      rml:reference "jadwalPenggunaan";
+    ];
+  ].

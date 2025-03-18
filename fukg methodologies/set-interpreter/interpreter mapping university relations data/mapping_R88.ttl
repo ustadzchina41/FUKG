@@ -1,0 +1,14 @@
+<TripleMap_R88_KlinikKampus_Melayani> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R88_KlinikKampus_melayani.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/KlinikKampus/{namaKlinik}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R88;
+    rr:objectMap [
+        rr:template "http://example.com/Dosen/{NIDN}";
+    ];
+  ].

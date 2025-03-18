@@ -1,0 +1,73 @@
+#====================================================== UNIVERSITY STUDENT ===============================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Mahasiswa> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "mahasiswa_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+  ];
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Mahasiswa";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "nama";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P1; 
+    rr:objectMap [
+      rml:reference "nomorIndukMahasiswa";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P2; 
+    rr:objectMap [
+      rml:reference "nama";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P3; 
+    rr:objectMap [
+      rml:reference "jenisKelamin";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P4; 
+    rr:objectMap [
+      rml:reference "programStudi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P5; 
+    rr:objectMap [
+      rml:reference "jenjang";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P6; 
+    rr:objectMap [
+      rml:reference "semesterAwal";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P7; 
+    rr:objectMap [
+      rml:reference "statusAwalMahasiswa";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P8; 
+    rr:objectMap [
+      rml:reference "statusMahasiswaSaatIni";
+    ];
+  ].

@@ -1,0 +1,3 @@
+ID,Relasi,Domain,Range
+R34,berlaku untuk,Kurikulum,ProgramStudi
+R35,terdiri dari mata kuliah,Kurikulum,MataKuliah

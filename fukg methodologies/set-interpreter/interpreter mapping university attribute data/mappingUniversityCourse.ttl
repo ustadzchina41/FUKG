@@ -1,0 +1,103 @@
+#=============================================================== UNIVERSITY COURSE =======================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_MataKuliah> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "mataKuliah_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/MataKuliah";
+    ];
+  ];  
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaMataKuliah";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P53; 
+    rr:objectMap [
+      rml:reference "kodeMataKuliah";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P54; 
+    rr:objectMap [
+      rml:reference "namaMataKuliah";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P55; 
+    rr:objectMap [
+      rml:reference "SKSMataKuliah";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P56; 
+    rr:objectMap [
+      rml:reference "dosenPengajarMataKuliah";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P57; 
+    rr:objectMap [
+      rml:reference "deskripsiMataKuliah";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P58; 
+    rr:objectMap [
+      rml:reference "capaianPembelajaran";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P59; 
+    rr:objectMap [
+      rml:reference "prasyarat";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P60; 
+    rr:objectMap [
+      rml:reference "pokokBahasan";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P61; 
+    rr:objectMap [
+      rml:reference "tugas";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P62; 
+    rr:objectMap [
+      rml:reference "kerangkaMatakuliah";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P63; 
+    rr:objectMap [
+      rml:reference "pustaka";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P64; 
+    rr:objectMap [
+      rml:reference "pembobotanNilai";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P65; 
+    rr:objectMap [
+      rml:reference "distribusiNilai";
+    ];
+  ].

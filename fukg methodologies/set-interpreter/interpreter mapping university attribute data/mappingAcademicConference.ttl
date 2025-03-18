@@ -1,0 +1,55 @@
+#============================================================ ACADEMIC CONFERENCE ========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Konferensi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "konferensi_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Konferensi/{namaKonferensi}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Konferensi";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaKonferensi";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P140; 
+    rr:objectMap [
+      rml:reference "namaKonferensi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P141; 
+    rr:objectMap [
+      rml:reference "tanggal";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P142; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P143; 
+    rr:objectMap [
+      rml:reference "jumlahPeserta";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P144; 
+    rr:objectMap [
+      rml:reference "topik";
+    ];
+  ].

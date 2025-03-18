@@ -1,0 +1,14 @@
+<TripleMap_R17_Departemen_TempatKerja> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R17_departemen_tempatKerja.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Departemen/{namaDepartemen}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R17;
+    rr:objectMap [
+        rr:template "http://example.com/StafAdministratif/{NIP}";
+    ];
+  ].

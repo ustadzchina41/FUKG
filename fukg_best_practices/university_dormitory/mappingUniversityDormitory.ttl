@@ -1,0 +1,55 @@
+#============================================================ UNIVERSITY DORMITORY =======================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Asrama> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "asrama_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Asrama/{namaAsrama}";
+  ];
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Asrama";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaAsrama";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P165; 
+    rr:objectMap [
+      rml:reference "namaAsrama";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P166; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P167; 
+    rr:objectMap [
+      rml:reference "kapasitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P168; 
+    rr:objectMap [
+      rml:reference "fasilitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P169; 
+    rr:objectMap [
+      rml:reference "biaya";
+    ];
+  ].

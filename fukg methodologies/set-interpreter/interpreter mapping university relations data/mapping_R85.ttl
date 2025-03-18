@@ -1,0 +1,14 @@
+<TripleMap_R85_Kafetaria_DigunakanOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R85_Kafetaria_digunakanOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Kafetaria/{namaKafetaria}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R85;
+    rr:objectMap [
+        rr:template "http://example.com/Dosen/{NIDN}";
+    ];
+  ].

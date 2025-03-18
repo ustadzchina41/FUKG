@@ -1,0 +1,55 @@
+#=========================================================== UNIVERSITY LABORATORY  ======================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_Laboratorium> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "laboratorium_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Laboratorium/{namaLaboratorium}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/Laboratorium";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaLaboratorium";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P115; 
+    rr:objectMap [
+      rml:reference "namaLaboratorium";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P116; 
+    rr:objectMap [
+      rml:reference "lokasi";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P117; 
+    rr:objectMap [
+      rml:reference "kepalaLaboratorium";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P118; 
+    rr:objectMap [
+      rml:reference "fasilitas";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P119; 
+    rr:objectMap [
+      rml:reference "bidangPenelitian";
+    ];
+  ].

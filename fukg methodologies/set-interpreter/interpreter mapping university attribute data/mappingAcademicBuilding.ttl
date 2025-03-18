@@ -1,0 +1,50 @@
+<TripleMap_Attribute_GedungAkademik> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "academicBuilding_attributes.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/GedungAkademik/{buildingName}";
+  ]; 
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/GedungAkademik";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "buildingName";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P155; 
+    rr:objectMap [
+      rml:reference "buildingName";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P156; 
+    rr:objectMap [
+      rml:reference "location";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P157; 
+    rr:objectMap [
+      rml:reference "yearBuilt";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P158; 
+    rr:objectMap [
+      rml:reference "numberOfFloors";
+    ];
+  ];
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P159; 
+    rr:objectMap [
+      rml:reference "facilities";
+    ];
+  ].

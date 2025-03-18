@@ -1,0 +1,133 @@
+#=============================================================== PROGRAM OF STUDY ========================================================#
+#=========================================================================================================================================#
+
+<TripleMap_Attribute_ProgramStudi> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "programStudi_attribute.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/ProgramStudi/{kodeProgramStudi}";
+  ]; 
+#========================================================= Subject Definition  ===========================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate rdf:type; 
+    rr:objectMap [
+      rr:template "http://example.com/fukg/SubClass/ProgramStudi";
+    ];
+  ]; 
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+        rml:reference "namaProgramStudi";
+    ];
+  ];
+#========================================================== Subject Attribute  ============================================================#
+  rr:predicateObjectMap [ 
+    rr:predicate predikatData:P66; 
+    rr:objectMap [
+      rml:reference "statusProgramStudi";
+    ];
+  ];
+   rr:predicateObjectMap [ 
+    rr:predicate predikatData:P67; 
+    rr:objectMap [
+      rml:reference "kodeProgramStudi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P68; 
+    rr:objectMap [
+      rml:reference "namaProgramStudi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P69; 
+    rr:objectMap [
+      rml:reference "jenjang";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P70; 
+    rr:objectMap [
+      rml:reference "akreditasi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P71; 
+    rr:objectMap [
+      rml:reference "tanggalBerdiri";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P72; 
+    rr:objectMap [
+      rml:reference "SKPenyelenggaraan";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P73; 
+    rr:objectMap [
+      rml:reference "tanggalSK";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P74; 
+    rr:objectMap [
+      rml:reference "alamatProgramStudi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P75; 
+    rr:objectMap [
+      rml:reference "kodePos";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P76; 
+    rr:objectMap [
+      rml:reference "telepon";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P77; 
+    rr:objectMap [
+      rml:reference "faximile";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P78; 
+    rr:objectMap [
+      rml:reference "email";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P79; 
+    rr:objectMap [
+      rml:reference "website";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P80; 
+    rr:objectMap [
+      rml:reference "deskripsi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P81; 
+    rr:objectMap [
+      rml:reference "visi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P82; 
+    rr:objectMap [
+      rml:reference "misi";
+    ];
+  ];
+    rr:predicateObjectMap [ 
+    rr:predicate predikatData:P83; 
+    rr:objectMap [
+      rml:reference "kompetensiProgramStudi";
+    ];
+  ].

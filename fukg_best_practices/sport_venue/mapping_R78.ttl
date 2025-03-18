@@ -1,0 +1,14 @@
+<TripleMap_R78_SaranaOlahraga_DigunakanOleh> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R78_SaranaOlahraga_digunakanOleh.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/SaranaOlahraga/{namaFasilitas}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R78;
+    rr:objectMap [
+        rr:template "http://example.com/Mahasiswa/{nomorIndukMahasiswa}";
+    ];
+  ].

@@ -1,0 +1,4 @@
+ID,Relasi,Domain,Range
+R55,bagianDari,Perpustakaan,Universitas
+R56,mengandung,Perpustakaan,Buku
+R57,mengandung,Perpustakaan,Jurnal

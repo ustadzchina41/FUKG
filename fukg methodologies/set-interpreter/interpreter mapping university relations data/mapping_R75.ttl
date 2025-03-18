@@ -1,0 +1,14 @@
+<TripleMap_R75_GedungAkademik_TempatKegiatan> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R75_GedungAkademik_tempatKegiatan.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/GedungAkademik/{namaGedung}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R75;
+    rr:objectMap [
+        rr:template "http://example.com/MataKuliah/{kodeMataKuliah}";
+    ];
+  ].

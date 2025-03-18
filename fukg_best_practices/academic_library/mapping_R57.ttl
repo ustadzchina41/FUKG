@@ -1,0 +1,14 @@
+<TripleMap_R57_Perpustakaan_Mengandung> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "R57_Perpustakaan_mengandung.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://example.com/Perpustakaan/{namaPerpustakaan}";
+  ];
+  rr:predicateObjectMap [
+    rr:predicate Rel:R57;
+    rr:objectMap [
+        rr:template "http://example.com/Jurnal/{namaJurnal}";
+    ];
+  ].
